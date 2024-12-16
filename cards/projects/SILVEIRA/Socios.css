@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+
+header {
+
+    background-color: #0055A4; 
+    text-align: center;
+    padding: 20px;
+}
+
+
+header img {
+    width: 150px;
+}
+
+
+
+
+
+nav {
+    background-color: #0055A4;
+    text-align: center;
+    padding: 15px 0;
+}
+
+
+
+nav a {
+    color: #ffffff; 
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 15px;
+}
+
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.Rectangulo {
+background-color: #e3ecf5;
+width: 80%;
+height: 150px;
+opacity: 0.8;
+border-radius: 10px;
+position: absolute;
+
+}
+
+.container {
+    
+    background-image: url("Fondo.jpg");
+    height: 968px;
+    padding: 20px;
+    text-align: center;
+    color: #a70000;
+}
+
+.Blanco {
+background-color:#0055A4;
+position: absolute;
+align-items:start;
+width: 90%;
+top: 340px;
+left: 80px;
+height: 840px;
+font-size: 22px;
+color: #ffffff;
+text-align: center;
+
+
+}
+
+.socios {
+    top: 15px;
+    padding: 2px;
+    background-color: #020072;
+    text-align: center;
+    color: #f8f8f8;
+}
+
+.socios h2 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.planes {
+    display: flex;
+    justify-content: space-around;
+}
+
+.plan {
+    background-color: #02005e;
+    padding: 150px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.plan h3 {
+    color: #001f5b;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.plan table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+.plan table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    text-align: left;
+}
+
+.plan table td:first-child {
+    font-weight: bold;
+    color: #333;
+}
+
+.plan table tr:first-child td {
+    background-color: #001f5b;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+
+

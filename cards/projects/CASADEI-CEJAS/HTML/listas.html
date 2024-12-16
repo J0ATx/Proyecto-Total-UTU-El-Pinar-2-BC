@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>HTML Basics - Listas</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="icon" href="../Imagenes/logohtml.png" type="icon">
+</head>
+<body>
+    <header>
+        <div class="container-header">
+            <p class="htmlbasics">HTML <br>Basics</p>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="https://www.atom.bio/espacioergo">Sobre nosotros</a>
+                <a href="https://youtu.be/ELSm-G201Ls?si=tUtw4u3nAP_kMifh">Aprende más</a>
+            </nav>
+        </div>
+    </header>
+    <section id="titulo">
+        <div class="container-general">
+            <div class="container-info">
+                <p class="proyecto">Proyecto Desarrolo Web</p>
+                <p>Nov 11, 2024</p>
+                <p>Esteban Casadei - Matias Cejas</p>
+            </div>
+            <h1>Listas en HTML</h1>
+            <h2>Aprende como utilizar el elemento lista.</h2>
+            <img src="../Imagenes/listas.png" alt="Listas" class="img-inicio">
+        </div>
+        <br>
+    </section>
+    <section id="indice">
+        <div class="container-general">
+            <h2> LISTA DE CONTENIDOS </h2>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio&nbsp;&nbsp; ></a></li>
+                    <ul>
+                        <li><a href="index.html#que-es">¿Que es HTML?&nbsp;&nbsp; ></a></li>
+                        <li><a href="index.html#para-que-sirve">¿Para que sirve?&nbsp;&nbsp; ></a></li>
+                    </ul>
+                    <li><a href="estructura.html">Estructura&nbsp;&nbsp; ></a></li>
+                    <ul>
+                        <li><a href="estructura.html#doctype-estructra">Declaración del DOCTYPE&nbsp;&nbsp; ></a></li>
+                        <li><a href="estructura.html#etiquetas-estructra">Etiqueta html&nbsp;&nbsp; ></a></li>
+                        <li><a href="estructura.html#ejemplo-estructura">Ejemplo&nbsp;&nbsp; ></a></li>
+                    </ul>
+                    <li><a href="texto.html">Texto&nbsp;&nbsp; ></a></li>
+                    <ul>
+                        <li><a href="texto.html#parrafos-texto">Párrafos&nbsp;&nbsp; ></a></li>
+                        <li><a href="texto.html#encabezados-texto">Encabezados&nbsp;&nbsp; ></a></li>
+                        <li><a href="texto.html#textosdestacados-texto">Textos destacados&nbsp;&nbsp; ></a></li>
+                        <li><a href="texto.html#extra-texto">Extra&nbsp;&nbsp; ></a></li>
+                        <li><a href="texto.html#ejemplo-texto">Ejemplo&nbsp;&nbsp; ></a></li>
+                    </ul>
+                    <li><a href="listas.html">Listas&nbsp;&nbsp; ></a></li>
+                    <ul>
+                        <li><a href="listas.html#ordenada-listas">Lista ordenada&nbsp;&nbsp; ></a></li>
+                        <li><a href="listas.html#desordenada-listas">Lista desordenada&nbsp;&nbsp; ></a></li>
+                    </ul>
+                    <li><a href="enlaces.html">Enlaces&nbsp;&nbsp; ></a></li>
+                    <ul>
+                        <li><a href="enlaces.html#destino-enlace">Destino del enlace&nbsp;&nbsp; ></a></li>
+                        <li><a href="enlaces.html#documento-enlace">Enlaces a una parte del documento&nbsp;&nbsp; ></a></li>
+                        <li><a href="enlaces.html#ancla-enlace">Crear ancla en el documento&nbsp;&nbsp; ></a></li>
+                    </ul>
+                    <li><a href="imagenes.html">Imagenes&nbsp;&nbsp; ></a></li>
+                    <ul>
+                        <li><a href="imagenes.html#atributos-imagenes">Atributos principales&nbsp;&nbsp; ></a></li>
+                    </ul>
+                    <li><a href="tablas.html">Tablas&nbsp;&nbsp; ></a></li>
+                    <ul>
+                        <li><a href="tablas.html#etiquetas-tablas">Etiquetas principales&nbsp;&nbsp; ></a></li>
+                        <li><a href="tablas.html#atributos-tablas">Atributos comunes&nbsp;&nbsp; ></a></li>
+                    </ul>
+                    <li><a href="divs.html">Div - Span&nbsp;&nbsp; ></a></li>
+                    <ul>
+                        <li><a href="divs.html#ejemplos-divs">Ejemplo&nbsp;&nbsp; ></a></li>
+                    </ul>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <section>
+        <div class="container-general">
+            <p>
+                Otro elemento <b>HTML</b> que te permite estructurar el contenido de la página es el <b>elemento lista.</b>
+                Gracias a él puedes crear filas con información y marcarlas con viñetas o números,
+                incluso, hay navegadores que admiten los números romanos.
+                <br> <br>
+                Aunque no parezca, detrás de las listas que ves en los sitios web,
+                siempre hay una <b>etiqueta HTML</b> indicando que sea una <b>lista desordenada u ordenada.</b>
+                Aquí te explicamos su principal diferencia.
+                <br> <br>
+                En <b>HTML</b>, podemos enumerar elementos en forma <b>ordenada</b> o <b>desordenada</b>:
+            </p>
+        </div>
+    </section>
+    <section>
+        <div class="container-general">
+            <h3 id="ordenada-listas">Lista ordenada</h3>
+            <p>
+                Una <b>lista ordenada</b> utiliza <b>números</b> o algún tipo de notación que indica una serie de elementos.
+                <br> <br>
+                Un elemento de <b>lista ordenada</b> se ve de la siguiente manera:
+            </p>
+            <div class="codigo">
+                <table cellpadding="20">
+                    <tr><td>&lt;ol&gt; &lt;/ol&gt;</td></tr>
+                </table>
+            </div>
+            <p>
+                Pero, a diferencia de los elementos que has visto hasta ahora, estas etiquetas <b>no hacen nada por sí solas</b>.
+                Para mostrar el contenido como una lista, necesitan dos elementos HTML que trabajen juntos:
+                uno para indicar que vas a incluir una lista <span class="etiqueta-codigo">&lt;ol&gt;</span>,
+                y otro para hacer que cada elemento de la lista aparezca en una fila diferente <span class="etiqueta-codigo">&lt;li&gt;</span>, así:
+            </p>
+            <div class="codigo">
+                <table cellpadding="20">
+                    <tr><td>&lt;ol&gt;</td></tr>
+                    <tr><td>&lt;li&gt;Este es el primer ítem de la lista.&lt;/li&gt;</td></tr>
+                    <tr><td>&lt;li&gt;Este es el segundo ítem de la lista.&lt;/li&gt;</td></tr>
+                    <tr><td>&lt;li&gt;Y este el tercero.&lt;/li&gt;</td></tr>
+                    <tr><td>&lt;/ol&gt;</td></tr>
+                </table>
+            </div>
+            <br>
+            <ol>
+                <li>Este es el primer ítem de la lista.</li>
+                <li>Este es el segundo ítem de la lista.</li>
+                <li>Y este el tercero.</li>
+            </ol>
+        </div>
+    </section>
+    <section>
+        <div class="container-general">
+            <h3 id="desordenada-listas">Lista desordenada</h3>
+            <p>Un elemento de <b>lista desordenada</b> se ve de la siguiente manera:</p>
+            <div class="codigo">
+                <table cellpadding="20">
+                    <tr><td>&lt;ul&gt; &lt;/ul&gt;</td></tr>
+                </table>
+            </div>
+            <p>
+                Su estructura es muy parecida a la de una lista ordenada,
+                pero aquí, el elemento que indica que vas a incluir una lista es <span class="etiqueta-codigo">&lt;ul&gt;</span>,
+                mientras que, la etiqueta <span class="etiqueta-codigo">&lt;li&gt;</span>le asignará a cada elemento una fila diferente:
+            </p>
+            <div class="codigo">
+                <table cellpadding="20">
+                    <tr><td>&lt;ul&gt;</td></tr>
+                    <tr><td>&lt;li&gt;Este es el primer ítem de la lista.&lt;/li&gt;</td></tr>
+                    <tr><td>&lt;li&gt;Este es el segundo ítem de la lista.&lt;/li&gt;</td></tr>
+                    <tr><td>&lt;/ul&gt;</td></tr>
+                </table>
+            </div>
+            <br>
+            <ul>
+                <li>Este es el primer ítem de la lista.</li>
+                <li>Este es el segundo ítem de la lista.</li>
+            </ul>
+            <br>
+            <a href="enlaces.html" class="boton">Siguiente&nbsp;&nbsp;></a>
+        </div>
+    </section>
+    <section id="contenido-relacionados">
+        <div class="container-general">
+            <hr>
+            <h3>Articlos relacionados</h3>
+            <div class="anuncios">
+                <a href="../../SANDES-ARBELBIDE/terminado/index.html"><img src="../Imagenes/LogoSandes.jpg" alt="Patrocinador" class="img-anuncios"></a>
+                <a href="https://escuela.it/cursos/html-css"><img src="../Imagenes/anunciocss.jpg" alt="Curso HTML y CSS" class="img-anuncios"></a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container-general">
+            <p>&copy; HTMLBasics 2024</p>
+        </div>
+    </footer>
+</body>
+</html>

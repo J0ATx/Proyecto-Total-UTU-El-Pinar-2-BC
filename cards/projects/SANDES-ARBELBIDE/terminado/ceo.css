@@ -1,0 +1,199 @@
+body{
+
+    background-color: #16151d;
+    width: 99.2%;
+    height: 100%;
+    background-size: cover;
+    color: white;
+    font-family: sans-serif;
+
+}
+
+
+.div1{
+
+    width: 20%;
+    height: 20%;
+    top: 2%;
+    left: 42%;
+    position: absolute;
+    background-repeat: no-repeat;
+
+}
+
+
+.pelado{
+
+    margin-left:36.2%;
+    margin-top: 2%;
+
+}
+
+
+h1{
+
+    color: #008879;
+    font-family: fantasy;
+    text-decoration: underline;
+    margin-top: 15%;
+    margin-left: 9%;
+    text-shadow: 2px 2px 2px #00cfb7;
+
+}
+
+
+.navT1 {  
+
+    background: #16151d;  
+    color: #df1c1c;  
+    padding: 1% 0;  
+    width: 550px;
+    font-size: large;
+    font-family: fantasy;
+    font-weight: blod;
+    position: absolute;
+    top: 17.5%;
+    margin-left:46.5% ;
+    text-shadow: 2px 2px 5px #5a0c0c;
+
+}  
+
+
+nav ul {  
+
+    list-style: none;  
+    padding: 0;  
+    width: 99.2%;
+
+}  
+
+
+nav ul li {  
+
+    display: inline;  
+    margin-right: 2%; 
+    width: 99.2%;
+
+}  
+
+
+nav ul li a {  
+
+    color: #df1c1c;  
+    text-decoration: none;  
+    width: 99.2%;
+
+}
+
+
+.lista{
+
+    color: #df1c1c;
+    margin-bottom: 1%;
+    margin-top: 1.8%;
+    margin-inline-end: 3%;
+
+}
+
+
+.lista2{
+
+    color: #df1c1c;
+
+}
+
+
+.lista3{
+
+    color: #df1c1c;
+
+}
+
+
+.lista4{
+
+    color: #df1c1c;
+
+}
+
+
+.lista5{
+
+    color: #df1c1c;
+
+}
+
+
+.lista6{
+
+    color: #df1c1c;
+
+}
+
+
+.lista7{
+
+    color: #df1c1c;
+
+}
+
+
+.lista8 {
+    
+    color: #df1c1c;
+    
+}
+
+
+a{
+
+    text-decoration: none;
+    color: #00a3e0;
+
+}
+
+
+h2{
+
+    color: #00cfb7;
+    text-shadow: 2px 2px 2px #008879;
+    text-decoration: underline;
+
+}
+
+
+.logros{
+
+    margin-top: 13%;
+
+}
+
+
+.carrera{
+
+    margin-top: 30%;
+
+}
+
+
+.pela2{
+
+    margin-top: 32%;
+    margin-left: 29%;
+    
+
+}
+
+
+.d1{
+
+    width: 65%;
+
+}
+
+
+.d2{
+
+    width: 65%;
+
+}

@@ -1,0 +1,223 @@
+html {
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: beige;
+}
+
+.container {
+    text-align: center;
+}
+
+header {
+    background-color: darkred;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+
+article h3 {
+    display: inline-block;
+    padding: 0 10px;
+    margin: 2rem 11rem;
+    
+}
+
+.vinculo {
+    padding: 0 1rem;
+    margin: 0 3rem;
+    text-decoration: none;
+    border: solid 0.5px black ;
+    border-radius: 10px;
+    background-color: brown;
+}
+
+.vinculo:link {
+    color: white;
+}
+
+.vinculo:visited {
+    color: white;
+}
+
+.vinculo:hover {
+    background-color: firebrick;
+}
+
+.foto {
+    width: 300px;
+    height: 300px;
+    border-radius: 1rem;
+
+}
+
+div{
+    margin: 1rem 0 0 0;
+    padding: 1rem 0;
+    width: 300px;
+    height: 399px;
+    position: relative;
+    left: 6.5rem;
+    background-color: white;
+    border-radius: 1rem;
+    display: inline-block;
+    
+}
+
+div h4 {
+    text-align: center;
+}
+
+article{
+text-align: center;
+}
+
+.foto:hover {
+    box-shadow: 0 0.1rem 0.4rem black;
+    transition: box-shadow 0.2s ease;
+}
+
+footer {
+    background-color: darkred;
+    padding:  2.3rem 1rem;
+    margin: 2rem 0 0 0;
+}
+
+footer p {
+    color: white;
+    display: inline;
+    padding: 1.7rem 1rem;
+}
+
+.footer {
+    
+    float: right;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 0 1rem;
+}
+
+.footer:visited {
+    color: white;
+}
+
+.footer:hover {
+    color: black;
+}
+
+.footer:active {
+    color: gray;
+}
+
+.seco {
+    position: absolute;
+    left: 50rem;
+    
+    
+}
+
+.seco2 {
+    position: absolute;
+    left: 95rem;
+}
+
+
+section {
+    width: 400px;
+    margin: 0 auto;
+    display: inline;
+}
+
+.s1 {
+    width: 400px;
+    margin: 0 auto;
+    display: block;
+}
+
+section h3 {
+    text-align: center; 
+}
+
+nav h4 {
+    text-align: center;
+}
+
+nav {
+    transition: box-shadow 0.2s ease;
+    background-color: white;
+    border-radius: 2rem;
+    padding: 1rem 0;
+    height: 600px;
+}
+
+nav p{
+    padding: 0 1rem;
+}
+
+.foto2 {
+    width: 400px;
+    height: 400px;
+    border-radius: 1rem;
+}
+
+.n1:hover {
+    box-shadow: 0 0.1rem 0.4rem black;
+    cursor: pointer;
+}
+
+.vinculo2 {
+    text-decoration: none;
+}
+
+.vinculo2:link {
+    color: black;
+}
+
+.vinculo2:visited {
+    color: black;
+}
+
+p{
+    line-height: 40px;
+}
+
+.jjoo{
+    position: relative;
+    left: 33.5rem;
+}
+
+.img{
+    position: relative;
+    left: 47rem;
+    width: 400px;
+    height: 300px;
+}
+
+
+
+div p {
+    padding: 0 0 0 1rem;
+}
+
+/*.b1{
+    background-image: url(fondo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}*/
+
+.colp{
+    color: red;
+}
+
+table{
+    position: relative;
+    left: 42rem;
+}
+
+.LinkPaginaCamila{
+    color:white;
+}

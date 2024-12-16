@@ -1,0 +1,1024 @@
+body{
+
+    background-color: #16151d;
+
+    background-size: cover;
+
+    color: white;
+
+    font-family: sans-serif;
+
+}
+
+
+.div1{
+
+    width: 20%;
+
+    height: 20%;
+
+    top: 2%;
+
+    left: 42%;
+
+    position: absolute;
+
+    background-repeat: no-repeat;
+
+}
+
+
+.lista{
+    
+    color: #df1c1c;
+
+    margin-bottom: 1%;
+
+    margin-top: 70%;
+    
+    margin-inline-end: 3%;
+
+}
+
+
+.lista2{
+
+    color: #df1c1c;
+
+}
+
+
+.lista3{
+
+    color: #df1c1c;
+
+}
+
+
+.lista4{
+
+    color: #df1c1c;
+
+}
+
+
+.lista5{
+
+    color: #df1c1c;
+
+}
+
+
+.lista6{
+
+    color: #df1c1c;
+
+}
+
+
+.lista7{
+
+    color: #df1c1c;
+
+}
+
+
+.lista8 {
+    
+    color: #df1c1c;
+    
+}
+
+
+a{
+
+    text-decoration: none;
+    color: #00a3e0;
+
+}
+
+
+.navT1 {  
+
+    background: #16151d;  
+    color: #df1c1c;  
+    padding: 1% 0;  
+    width: 550px;
+    font-size: large;
+    font-family: fantasy;
+    font-weight: blod;
+    position: absolute;
+    top: 17.5%;
+    margin-left:35% ;
+    text-shadow: 2px 2px 5px #5a0c0c;
+
+}  
+
+
+nav ul {  
+
+    list-style: none;  
+    padding: 0;  
+    width: 99.2%;
+
+}  
+
+
+nav ul li {  
+
+    display: inline;  
+    margin-right: 2%; 
+    width: 99.2%;
+
+}  
+
+
+nav ul li a {  
+
+    color: #df1c1c;  
+    text-decoration: none;  
+    width: 99.2%;
+
+}  
+
+
+h2 {  
+
+    color: #df1c1c;  
+
+}  
+
+
+.inicio{
+
+    margin-top:60%;
+    width: 75%;
+    padding-left: 2.5%;
+
+}
+
+
+.nav1{
+
+    padding: 2.5%;
+
+    font-size: large;
+
+    font-family: fantasy;
+
+    font-weight: blod;
+
+}
+
+
+
+.Mercedes{
+
+    width: 30%; 
+
+    background-image: url(./html/HamiltonYrussel.jpg) ; 
+
+    padding: 2%;  
+
+    top: 60%;  
+
+    height: 115.6%; 
+
+    display: table;
+
+    border-radius: 5%;
+
+    background-size: cover;
+
+    position: absolute;
+
+    font-family: fantasy;
+
+    box-shadow: 20px 30px 30px #00a19c;
+
+}
+
+
+.HAMILTONDIV{
+
+    width: 30%;  
+
+    margin-left: 35%;  
+
+    top: 60%;  
+
+    height: 40%; 
+
+    display: table;
+
+    border-radius: 5%;
+
+    background-size: auto;
+
+    position: absolute;
+
+}
+
+
+.MercedesH2{
+
+    font-family: fantasy;
+
+        color: #df1c1c;
+
+        margin-top:26%;
+
+        width: 74%;
+
+        padding-left: 2.5%;
+
+        text-decoration: underline;
+
+}
+
+
+.Hamiltonu{
+
+    color: #00A19B;
+
+    text-shadow: 8px 8px 16px #000;
+
+}
+
+
+.fotoH{
+
+    width: 92.5%;
+
+    height: 47.5%;
+
+}
+
+
+.RussellImg{
+
+    width: 30%;  
+
+    margin-left: 35%;  
+
+    top: 130%;  
+
+    height: 40%; 
+
+    display: table;
+
+    border-radius: 5%;
+
+    background-size: auto;
+
+    position: absolute;
+
+}
+
+
+.RussellH{
+
+    width: 92.5%;
+
+    height: 47.5%;
+
+}
+
+
+.Russelltabla{
+
+    color: #00A19B;
+
+    text-shadow: 8px 8px 16px #000;
+
+}
+
+
+
+
+
+
+
+
+
+.Ferrari {
+
+    width: 30%;
+
+    background-image: url(./html/1de106d44f38813b13b92931be1d5678.jpg);
+
+    padding: 2%;
+
+    top: 60%;
+
+    height: 115.6%;
+
+    display: table;
+
+    border-radius: 5%;
+
+    background-size: cover;
+
+    position: absolute;
+
+    margin-top: 80%;
+
+    font-family: fantasy;
+
+}
+
+.LECLERCDIV {
+
+    width: 30%;
+
+    margin-left: 35%;
+
+    top: 60%;
+
+    height: 40%;
+
+    display: table;
+
+    border-radius: 5%;
+
+    background-size: auto;
+
+    position: absolute;
+
+    margin-top: 80%;
+
+}
+
+.FerrariH2 {
+
+    font-family: fantasy;
+
+    color: #df1c1c;
+
+    margin-top: 80%;
+
+    width: 74%;
+
+    padding-left: 2.5%;
+
+    text-decoration: underline;
+
+}
+
+.Leclercu {
+
+    color: #ffea74;
+
+    text-shadow: 8px 8px 16px #000;
+
+}
+
+.fotoL {
+
+    width: 92.5%;
+
+    height: 47.5%;
+
+}
+
+.SainzImg {
+
+    width: 30%;
+
+    margin-left: 35%;
+
+    top: 130%;
+
+    height: 40%;
+
+    display: table;
+
+    border-radius: 5%;
+
+    background-size: auto;
+
+    position: absolute;
+
+    margin-top: 80%;
+
+}
+
+.SainzH {
+
+    width: 92.5%;
+
+    height: 47.5%;
+
+}
+
+.Sainztabla {
+
+    color: #ffed47;
+
+    text-shadow: 8px 8px 16px #000;
+
+}
+
+
+
+
+
+
+
+.RedBull {
+
+    width: 30%;
+
+    background-image: url(./html/redbulllogopilotoototototots.jpg);
+
+    padding: 2%;
+
+    top: 60%;
+
+    height: 115.6%;
+
+    display: table;
+
+    border-radius: 5%;
+
+    background-size: cover;
+
+    position: absolute;
+
+    margin-top: 155%;
+
+    font-family: fantasy;
+
+}
+
+.VERSTAPPENDIV {
+
+    width: 30%;
+
+    margin-left: 35%;
+
+    top: 60%;
+
+    height: 40%;
+
+    display: table;
+
+    border-radius: 5%;
+
+    background-size: auto;
+
+    position: absolute;
+
+    margin-top: 155%;
+
+}
+
+.RedBullH2 {
+
+    font-family: fantasy;
+
+    color: #df1c1c;
+
+    margin-top: 75%;
+
+    width: 74%;
+
+    padding-left: 2.5%;
+
+    text-decoration: underline;
+
+}
+
+.Verstappenu {
+
+    color: #df1c1c;
+
+    text-shadow: 8px 8px 16px #000;
+
+}
+
+.fotoV {
+
+    width: 92.5%;
+
+    height: 47.5%;
+
+}
+
+.PerezImg {
+
+    width: 30%;
+
+    margin-left: 35%;
+
+    top: 130%;
+
+    height: 40%;
+
+    display: table;
+
+    border-radius: 5%;
+
+    background-size: auto;
+
+    position: absolute;
+
+    margin-top: 155%;
+
+}
+
+.PerezH {
+
+    width: 92.5%;
+
+    height: 47.5%;
+
+}
+
+.PerezTabla {
+
+    color: #df1c1c;
+
+    text-shadow: 8px 8px 16px #000;
+
+}
+
+
+.McLaren {
+
+    width: 30%;
+
+    background-image: url(./html/tumblr_2a35359a26518329d40f87467d928588_b9d94572_1280.jpg);
+
+    padding: 2%;
+
+    top: 60%;
+
+    height: 115.6%;
+
+    display: table;
+
+    border-radius: 5%;
+
+    background-size: cover;
+
+    position: absolute;
+
+    margin-top: 222%;  
+
+}
+
+.LANDODIV {
+
+    width: 30%;
+
+    margin-left: 35%;
+
+    top: 60%;
+
+    height: 40%;
+
+    display: table;
+
+    border-radius: 5%;
+
+    background-size: auto;
+
+    position: absolute;
+
+    margin-top: 225%;  
+
+}
+
+.McLarenH2 {
+
+    font-family: fantasy;
+
+    color: #ff8a00;
+
+    margin-top: 70%;
+
+    width: 74%;
+
+    padding-left: 2.5%;
+
+    text-decoration: underline;
+
+}
+
+.Landou {
+
+    color: #000000;
+
+    text-shadow: 8px 8px 16px #000;
+
+}
+
+.fotoLando {
+
+    width: 92.5%;
+
+    height: 47.5%;
+
+}
+
+.PiastriImg {
+
+    width: 30%;
+
+    margin-left: 35%;
+
+    top: 130%;
+
+    height: 40%;
+
+    display: table;
+
+    border-radius: 5%;
+    
+    background-size: auto;
+
+    position: absolute;
+
+    margin-top: 225%;  
+
+}
+
+.PiastriH {
+
+    width: 92.5%;
+
+    height: 47.5%;
+
+}
+
+.Piastritabla {
+
+    color: #000000;
+
+    text-shadow: 8px 8px 16px #000;
+
+}
+
+
+.Alpine {
+    width: 30%;
+    background-image: url(./html/2b1a61fa5518bc90abc52e4d90f7b6ce.jpg);
+    padding: 2%;
+    top: 60%;
+    height: 115.6%;
+    display: table;
+    border-radius: 5%;
+    background-size: cover;
+    position: absolute;
+    margin-top: 290%;
+}
+
+.OconDIV {
+    width: 30%;
+    margin-left: 35%;
+    top: 60%;
+    height: 40%;
+    display: table;
+    border-radius: 5%;
+    background-size: auto;
+    position: absolute;
+    margin-top: 290%;
+}
+
+.AlpineH2 {
+    font-family: fantasy;
+    color: #ff8a00;
+    margin-top: 64%;
+    width: 74%;
+    padding-left: 2.5%;
+    text-decoration: underline;
+}
+
+.Oconu {
+
+    font-family: fantasy;
+    color: #ffffff;
+    text-shadow: 8px 8px 16px #000;
+
+}
+
+.fotoOcon {
+    width: 92.5%;
+    height: 47.5%;
+}
+
+.GaslyImg {
+
+    width: 30%;
+    margin-left: 35%;
+    top: 130%;
+    height: 40%;
+    display: table;
+    border-radius: 5%;
+    background-size: auto;
+    position: absolute;
+    margin-top: 290%;
+    
+}
+
+.GaslyH {
+
+    width: 92.5%;
+    height: 47.5%;
+
+}
+
+.Alpinetabla {
+
+    font-family: fantasy;
+    color: #ffffff;
+    text-shadow: 8px 8px 16px #000;
+
+}
+
+.WilliamsH2 {
+
+    font-family: fantasy;
+    color: #ff8a00;
+    margin-top: 74%;
+    width: 74%;
+    padding-left: 2.5%;
+    text-decoration: underline;
+
+}
+
+.Williams {
+    width: 30%;
+    background-image: url(./html/d9b8abe81f772d9c6bf6b62c3e899e8f.jpg);
+    padding: 2%;
+    top: 60%;
+    height: 115.6%;
+    display: table;
+    border-radius: 5%;
+    background-size: cover;
+    position: absolute;
+    margin-top: 362%;
+}
+
+.AlbonDIV {
+    width: 30%;
+    margin-left: 35%;
+    top: 60%;
+    height: 40%;
+    display: table;
+    border-radius: 5%;
+    background-size: auto;
+    position: absolute;
+    margin-top: 364%;
+}
+
+.SargeantImg {
+    width: 30%;
+    margin-left: 35%;
+    top: 130%;
+    height: 40%;
+    display: table;
+    border-radius: 5%;
+    background-size: auto;
+    position: absolute;
+    margin-top: 364%;
+}
+
+.Albonu {
+
+    font-family: fantasy;
+    color: #0077ff;
+    text-shadow: 8px 8px 16px #000;
+
+}
+
+.SargeantH {
+    width: 92.5%;
+    height: 47.5%;
+}
+
+.Sargeanttabla {
+
+    font-family: fantasy;
+    color: #0077ff;
+    text-shadow: 8px 8px 16px #000;
+    
+}
+
+.HaasH2 {
+    font-family: fantasy;
+    color: #ff8a00;
+    margin-top: 70%;
+    width: 74%;
+    padding-left: 2.5%;
+    text-decoration: underline;
+}
+
+.Haas {
+    width: 30%;
+    background-image: url(./html/haas-f1-team-wl-1242x2668.jpg);
+    padding: 2%;
+    top: 60%;
+    height: 115.6%;
+    display: table;
+    border-radius: 5%;
+    background-size: cover;
+    position: absolute;
+    margin-top: 433%;
+}
+
+.MagnusenuDIV {
+    width: 30%;
+    margin-left: 35%;
+    top: 60%;
+    height: 40%;
+    display: table;
+    border-radius: 5%;
+    background-size: auto;
+    position: absolute;
+    margin-top: 436%;
+}
+
+.hulkenberg {
+    width: 30%;
+    margin-left: 35%;
+    top: 130%;
+    height: 40%;
+    display: table;
+    border-radius: 5%;
+    background-size: auto;
+    position: absolute;
+    margin-top: 436%;
+}
+
+.Magnusenu {
+    font-family: fantasy;
+    color: #df1c1c;
+    text-shadow: 8px 8px 16px #000;
+}
+
+.fotoMagnusen {
+    width: 92.5%;
+    height: 47.5%;
+}
+
+.hulkenbergh {
+    width: 92.5%;
+    height: 99.5%;
+}
+
+.Hulkenbergu { font-family: fantasy;
+    color: #df1c1c;
+    text-shadow: 8px 8px 16px #000;
+}
+
+.AstonMartinH2 {
+    font-family: fantasy;
+    color: #ff8a00;
+    margin-top: 72%;
+    width: 74%;
+    padding-left: 2.5%;
+    text-decoration: underline;
+}
+
+.AstonMartin {
+    width: 30%;
+    background-image: url(./html/67eed5b4ba8acca79bdbcaa0faee26b0.jpg);
+    padding: 2%;
+    top: 60%;
+    height: 115.6%;
+    display: table;
+    border-radius: 5%;
+    background-size: cover;
+    position: absolute;
+    margin-top: 503%;
+}
+
+.AlonsoDIV {
+    width: 30%;
+    margin-left: 35%;
+    top: 60%;
+    height: 40%;
+    display: table;
+    border-radius: 5%;
+    background-size: auto;
+    position: absolute;
+    margin-top: 507%;
+}
+
+.StrollImg {
+    width: 30%;
+    margin-left: 35%;
+    top: 130%;
+    height: 40%;
+    display: table;
+    border-radius: 5%;
+    background-size: auto;
+    position: absolute;
+    margin-top: 510%;
+}
+
+.Alonzu {
+    font-family: fantasy;
+    color: #ffffff;
+    text-shadow: 8px 8px 16px #000;
+}
+
+.fotoAlonso {
+    width: 92.5%;
+    height: 47.5%;
+}
+
+.StrollH {
+    width: 92.5%;
+    height: 47.5%;
+}
+
+.Strolltabla {
+    color: #ffffff;
+    text-shadow: 8px 8px 16px #000;
+    font-family: fantasy;
+}
+
+.VisaCashAppH2 {
+    font-family: fantasy;
+    color: #003cff;
+    margin-top: 70%;
+    width: 74%;
+    padding-left: 2.5%;
+    text-decoration: underline;
+}
+
+.VisaCashApp {
+
+    width: 30%;
+
+    background-image: url(./html/rbvisa.png);
+
+    padding: 2%;
+
+    top: 60%;
+
+    height: 115.6%;
+
+    display: table; 
+
+    border-radius: 5%;
+
+    background-size: cover;
+
+    position: absolute;
+
+    margin-top: 575%;
+    
+}
+
+.yuki {
+    width: 30%;
+    margin-left: 35%;
+    top: 60%;
+    height: 40%;
+    display: table;
+    border-radius: 5%;
+    background-size: auto;
+    position: absolute;
+    margin-top: 580%;
+}
+
+.RBService {
+    font-family: fantasy;
+    color: #9ef0ff;
+    text-shadow: 8px 8px 16px #000;
+}
+
+.VisaImage {
+    width: 92.5%;
+    height: 47.5%;
+}
+
+.CashAppScreenshot {
+    width: 92.5%;
+    height: 47.5%;
+}
+
+.RBFeatures {
+    font-family: fantasy;
+    color: #9ef0ff;
+    text-shadow: 8px 8px 16px #000;
+}
+
+
+.lawson{
+
+    width: 30%;
+    margin-left: 35%;
+    top: 60%;
+    height: 40%;
+    display: table;
+    border-radius: 5%;
+    background-size: auto;
+    position: absolute;
+    margin-top: 610%;
+
+}

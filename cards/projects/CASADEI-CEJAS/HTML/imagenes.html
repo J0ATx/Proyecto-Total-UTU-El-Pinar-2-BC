@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>HTML Basics - Imagenes</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="icon" href="../Imagenes/logohtml.png" type="icon">
+</head>
+<body>
+    <header>
+        <div class="container-header">
+            <p class="htmlbasics">HTML <br>Basics</p>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="https://www.atom.bio/espacioergo">Sobre nosotros</a>
+                <a href="https://youtu.be/ELSm-G201Ls?si=tUtw4u3nAP_kMifh">Aprende más</a>
+            </nav>
+        </div>
+    </header>
+    <section id="titulo">
+        <div class="container-general">
+            <div class="container-info">
+                <p class="proyecto">Proyecto Desarrolo Web</p>
+                <p>Nov 11, 2024</p>
+                <p>Esteban Casadei - Matias Cejas</p>
+            </div>
+            <h1>Imagenes en HTML</h1>
+            <h2>Todo sobre las imagenes en HTML 5</h2>
+            <img src="../Imagenes/img.jpeg" alt="Imagen" class="img-inicio">
+        </div>
+    </section>
+    <section>
+        <div class="container-general">
+            <p>
+                Las <b>imágenes</b> en HTML se utilizan para insertar <b>gráficos</b>, <b>fotografías</b>
+                u otros elementos visuales en una página web. Estas imágenes pueden mejorar
+                la <b>experiencia del usuario</b>, hacer que la página sea más <b>atractiva</b> y transmitir
+                <b>información</b> de manera más clara o efectiva que solo con <b>texto</b>.
+            </p>
+        </div>
+    </section>
+    <section id="indice">
+        <div class="container-general">
+            <h2> LISTA DE CONTENIDOS </h2>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio&nbsp;&nbsp; ></a></li>
+                    <ul>
+                        <li><a href="index.html#que-es">¿Que es HTML?&nbsp;&nbsp; ></a></li>
+                        <li><a href="index.html#para-que-sirve">¿Para que sirve?&nbsp;&nbsp; ></a></li>
+                    </ul>
+                    <li><a href="estructura.html">Estructura&nbsp;&nbsp; ></a></li>
+                    <ul>
+                        <li><a href="estructura.html#doctype-estructra">Declaración del DOCTYPE&nbsp;&nbsp; ></a></li>
+                        <li><a href="estructura.html#etiquetas-estructra">Etiqueta html&nbsp;&nbsp; ></a></li>
+                        <li><a href="estructura.html#ejemplo-estructura">Ejemplo&nbsp;&nbsp; ></a></li>
+                    </ul>
+                    <li><a href="texto.html">Texto&nbsp;&nbsp; ></a></li>
+                    <ul>
+                        <li><a href="texto.html#parrafos-texto">Párrafos&nbsp;&nbsp; ></a></li>
+                        <li><a href="texto.html#encabezados-texto">Encabezados&nbsp;&nbsp; ></a></li>
+                        <li><a href="texto.html#textosdestacados-texto">Textos destacados&nbsp;&nbsp; ></a></li>
+                        <li><a href="texto.html#extra-texto">Extra&nbsp;&nbsp; ></a></li>
+                        <li><a href="texto.html#ejemplo-texto">Ejemplo&nbsp;&nbsp; ></a></li>
+                    </ul>
+                    <li><a href="listas.html">Listas&nbsp;&nbsp; ></a></li>
+                    <ul>
+                        <li><a href="listas.html#ordenada-listas">Lista ordenada&nbsp;&nbsp; ></a></li>
+                        <li><a href="listas.html#desordenada-listas">Lista desordenada&nbsp;&nbsp; ></a></li>
+                    </ul>
+                    <li><a href="enlaces.html">Enlaces&nbsp;&nbsp; ></a></li>
+                    <ul>
+                        <li><a href="enlaces.html#destino-enlace">Destino del enlace&nbsp;&nbsp; ></a></li>
+                        <li><a href="enlaces.html#documento-enlace">Enlaces a una parte del documento&nbsp;&nbsp; ></a></li>
+                        <li><a href="enlaces.html#ancla-enlace">Crear ancla en el documento&nbsp;&nbsp; ></a></li>
+                    </ul>
+                    <li><a href="imagenes.html">Imagenes&nbsp;&nbsp; ></a></li>
+                    <ul>
+                        <li><a href="imagenes.html#atributos-imagenes">Atributos principales&nbsp;&nbsp; ></a></li>
+                    </ul>
+                    <li><a href="tablas.html">Tablas&nbsp;&nbsp; ></a></li>
+                    <ul>
+                        <li><a href="tablas.html#etiquetas-tablas">Etiquetas principales&nbsp;&nbsp; ></a></li>
+                        <li><a href="tablas.html#atributos-tablas">Atributos comunes&nbsp;&nbsp; ></a></li>
+                    </ul>
+                    <li><a href="divs.html">Div - Span&nbsp;&nbsp; ></a></li>
+                    <ul>
+                        <li><a href="divs.html#ejemplos-divs">Ejemplo&nbsp;&nbsp; ></a></li>
+                    </ul>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <section>
+        <div class="container-general">
+            <h2>¿Cómo se insertan imágenes en HTML?</h2>
+            <p>
+                Las imágenes en HTML se insertan usando la etiqueta <span class="etiqueta-codigo">&lt;img&gt;</span>, que es una
+                etiqueta <b>vacía</b> (es decir, no tiene una etiqueta de cierre). La sintaxis
+                básica es la siguiente:
+            </p>
+            <div class="codigo">
+                <table cellpadding="20">
+                    <tr><td>&lt;img src="ruta_de_la_imagen" alt="texto alternativo"&gt;</td></tr>
+                </table>
+            </div>
+            <hr>
+        </div>
+    </section>
+    <section>
+        <div class="container-general">
+            <h2 id="atributos-imagenes">Atributos principales de la etiqueta &lt;img&gt;:</h2>
+            <h3>src (source):</h3>
+            <p>
+                Especifica la <b>ruta</b> o <b>URL</b> de la imagen que se desea mostrar.
+                Puede ser una ruta <b>local</b> (como una imagen guardada en tu computadora
+                o servidor) o una <b>URL externa</b> (como una imagen alojada en otro sitio web).
+                <br>
+                Ejemplo:
+            </p>
+            <div class="codigo">
+                <table cellpadding="20">
+                    <tr><td>&lt;img src="imagenes/foto.jpg" alt="Descripción de la imagen"&gt;</td></tr>
+                </table>
+            </div>
+            <h3>alt (texto alternativo):</h3>
+            <p>
+                Es un texto <b>descriptivo</b> que se muestra en caso de que la imagen no se
+                pueda cargar o si un usuario utiliza un <b>lector de pantalla</b> (accesibilidad).
+                Este atributo es importante tanto para la <b>accesibilidad web</b> como para el <b>SEO</b>
+                (optimización en motores de búsqueda).
+                <br>
+                Ejemplo:
+            </p>
+            <div class="codigo">
+                <table cellpadding="20">
+                    <tr><td>&lt;img src="logo.png" alt="Logo de la empresa"&gt;</td></tr>
+                </table>
+            </div>
+            <h3>width y height (dimensiones):</h3>
+            <p>
+                Puedes especificar el <b>tamaño</b> de la imagen en <b>píxeles</b>. Sin embargo, es
+                recomendable no usar estos atributos para <b>redimensionar</b> imágenes de manera
+                significativa, ya que hacerlo podría <b>distorsionar</b> la imagen. Es mejor <b>redimensionar</b>
+                las imágenes antes de subirlas.
+                <br>
+                Ejemplo:
+            </p>
+            <div class="codigo">
+                <table cellpadding="20">
+                    <tr><td>&lt;img src="foto.jpg" alt="Una foto" width="300" height="200"&gt;</td></tr>
+                </table>
+            </div>
+            <h3>title:</h3>
+            <p>
+                Muestra un <b>texto emergente</b> (tooltip) cuando el usuario coloca el <b>cursor</b>
+                sobre la imagen. Es un atributo <b>opcional</b>.
+                <br>
+                Ejemplo:
+            </p>
+            <div class="codigo">
+                <table cellpadding="20">
+                    <tr><td>&lt;img src="foto.jpg" alt="Una foto" title="Haz clic para ver más"&gt;</td></tr>
+                </table>
+            </div>
+            <br> <br>
+            <a href="tablas.html" class="boton">Siguiente&nbsp;&nbsp;></a>
+        </div>
+    </section>
+    <section id="contenido-relacionados">
+        <div class="container-general">
+            <hr>
+            <h3>Articlos relacionados</h3>
+            <div class="anuncios">
+                <a href="../../SANDES-ARBELBIDE/terminado/index.html"><img src="../Imagenes/LogoSandes.jpg" alt="Patrocinador" class="img-anuncios"></a>
+                <a href="https://escuela.it/cursos/html-css"><img src="../Imagenes/anunciocss.jpg" alt="Curso HTML y CSS" class="img-anuncios"></a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container-general">
+            <p>&copy; HTMLBasics 2024</p>
+        </div>
+    </footer>
+</body>
+</html>

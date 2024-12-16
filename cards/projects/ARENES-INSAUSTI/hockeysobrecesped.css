@@ -1,0 +1,161 @@
+body {
+    background-color: beige;
+}
+h1 {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+h2 {
+    color: black;
+    font-size: large;
+    text-align: center;
+}
+.p1 {
+    text-decoration: underline;
+}
+#equipos{
+    background-color: tan;
+    width: 30%; 
+    height: 70%;
+    border: 1px solid #ccc; 
+    top: 15%;
+    left: 1%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    position: absolute;
+}
+li {
+    color: black;
+    font-size: medium;
+}
+.team{
+    width: 90%; 
+    height: 45%;
+    left: 6%;
+    position: absolute;
+}
+#puntuacion{
+    background-color: tan;
+    width: 30%; 
+    height: 30%;
+    border: 1px solid #ccc; 
+    top: 15%;
+    right: 35%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    position: absolute;
+}
+.points{
+    top: 63%;
+    height: 32%;
+    width: 60%; 
+    right: 20%;
+    position: absolute;
+}
+#area{
+    background-color: tan;
+    width: 30%; 
+    height: 45%;
+    border: 1px solid #ccc; 
+    top: 15%;
+    right: 2%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    position: absolute;
+}
+.canchahockey{
+    width: 90%;
+    height: 60%;
+    right: 5%;
+    position: absolute;
+}
+#reglas{
+    background-color: tan;
+    width: 30%; 
+    height: 30%;
+    border: 1px solid #ccc; 
+    top: 50%;
+    right: 35%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    position: absolute;
+}
+#equipamiento{
+    background-color: tan;
+    width: 30%; 
+    height: 40%;
+    border: 1px solid #ccc; 
+    top: 65%;
+    right: 2%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    position: absolute;
+}
+.stick{
+    width: 80%;
+    height: 65%;
+    top: 33%;
+    right: 8%;
+    position: absolute;
+}
+#torneos{
+    background-color:tan;
+    width: 30%; 
+    height: 55%;
+    border: 1px solid #ccc; 
+    top: 90%;
+    left: 1%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    position: absolute;
+}
+.copa {
+    position: absolute;
+    width: 35%;
+    height: 55%;
+    top: 45%;
+    left: 35%;
+}
+#pases{
+    background-color: tan;
+    width: 30%; 
+    height: 50%;
+    border: 1px solid #ccc; 
+    top: 85%;
+    right: 35%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    position: absolute;
+}
+#historia{
+    background-color: tan;
+    width: 30%; 
+    height: 20%;
+    border: 1px solid #ccc; 
+    top: 110%;
+    right: 2%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    position: absolute;
+}
+.atras {
+    width: 7%;
+    height: 7%;
+    top: 135%;
+    right: 12%;
+    position: absolute;
+}
+.inicio {
+    width: 7%;
+    height: 7%;
+    top: 135%;
+    right: 2%;
+    position: absolute;
+}
+.Bautiland {
+    position: absolute;
+    width: 80px;
+    height: 65px;
+    border-radius: 100%;
+}

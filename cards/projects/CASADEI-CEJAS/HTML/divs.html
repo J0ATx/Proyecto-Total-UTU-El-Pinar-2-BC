@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>HTML Basics - Divs y Span</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="icon" href="../Imagenes/logohtml.png" type="icon">
+</head>
+<body>
+    <header>
+        <div class="container-header">
+            <p class="htmlbasics">HTML <br>Basics</p>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="https://www.atom.bio/espacioergo">Sobre nosotros</a>
+                <a href="https://youtu.be/ELSm-G201Ls?si=tUtw4u3nAP_kMifh">Aprende más</a>
+            </nav>
+        </div>
+    </header>
+    <section id="titulo">
+        <div class="container-general">
+            <div class="container-info">
+                <p class="proyecto">Proyecto Desarrolo Web</p>
+                <p>Nov 11, 2024</p>
+                <p>Esteban Casadei - Matias Cejas</p>
+            </div>
+            <h1>Divs y Span en HTML</h1>
+            <h2>Diferentes entre divs y span.</h2>
+            <img src="../Imagenes/divs.jpg" alt="Div" class="img-inicio">
+        </div>
+    </section>
+
+    <section>
+        <div class="container-general">
+            <p>
+                En HTML, las etiquetas &lt;div&gt; y &lt;span&gt; son elementos contenedores
+                que se utilizan para agrupar otros elementos, pero tienen diferencias clave en cuanto
+                a su <b>comportamiento</b> y <b>uso</b>.
+            </p>
+        </div>
+    </section>
+
+    <section id="indice">
+        <div class="container-general">
+            <h2> LISTA DE CONTENIDOS </h2>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio&nbsp;&nbsp; ></a></li>
+                    <ul>
+                        <li><a href="index.html#que-es">¿Que es HTML?&nbsp;&nbsp; ></a></li>
+                        <li><a href="index.html#para-que-sirve">¿Para que sirve?&nbsp;&nbsp; ></a></li>
+                    </ul>
+                    <li><a href="estructura.html">Estructura&nbsp;&nbsp; ></a></li>
+                    <ul>
+                        <li><a href="estructura.html#doctype-estructra">Declaración del DOCTYPE&nbsp;&nbsp; ></a></li>
+                        <li><a href="estructura.html#etiquetas-estructra">Etiqueta html&nbsp;&nbsp; ></a></li>
+                        <li><a href="estructura.html#ejemplo-estructura">Ejemplo&nbsp;&nbsp; ></a></li>
+                    </ul>
+                    <li><a href="texto.html">Texto&nbsp;&nbsp; ></a></li>
+                    <ul>
+                        <li><a href="texto.html#parrafos-texto">Párrafos&nbsp;&nbsp; ></a></li>
+                        <li><a href="texto.html#encabezados-texto">Encabezados&nbsp;&nbsp; ></a></li>
+                        <li><a href="texto.html#textosdestacados-texto">Textos destacados&nbsp;&nbsp; ></a></li>
+                        <li><a href="texto.html#extra-texto">Extra&nbsp;&nbsp; ></a></li>
+                        <li><a href="texto.html#ejemplo-texto">Ejemplo&nbsp;&nbsp; ></a></li>
+                    </ul>
+                    <li><a href="listas.html">Listas&nbsp;&nbsp; ></a></li>
+                    <ul>
+                        <li><a href="listas.html#ordenada-listas">Lista ordenada&nbsp;&nbsp; ></a></li>
+                        <li><a href="listas.html#desordenada-listas">Lista desordenada&nbsp;&nbsp; ></a></li>
+                    </ul>
+                    <li><a href="enlaces.html">Enlaces&nbsp;&nbsp; ></a></li>
+                    <ul>
+                        <li><a href="enlaces.html#destino-enlace">Destino del enlace&nbsp;&nbsp; ></a></li>
+                        <li><a href="enlaces.html#documento-enlace">Enlaces a una parte del documento&nbsp;&nbsp; ></a></li>
+                        <li><a href="enlaces.html#ancla-enlace">Crear ancla en el documento&nbsp;&nbsp; ></a></li>
+                    </ul>
+                    <li><a href="imagenes.html">Imagenes&nbsp;&nbsp; ></a></li>
+                    <ul>
+                        <li><a href="imagenes.html#atributos-imagenes">Atributos principales&nbsp;&nbsp; ></a></li>
+                    </ul>
+                    <li><a href="tablas.html">Tablas&nbsp;&nbsp; ></a></li>
+                    <ul>
+                        <li><a href="tablas.html#etiquetas-tablas">Etiquetas principales&nbsp;&nbsp; ></a></li>
+                        <li><a href="tablas.html#atributos-tablas">Atributos comunes&nbsp;&nbsp; ></a></li>
+                    </ul>
+                    <li><a href="divs.html">Div - Span&nbsp;&nbsp; ></a></li>
+                    <ul>
+                        <li><a href="divs.html#ejemplos-divs">Ejemplo&nbsp;&nbsp; ></a></li>
+                    </ul>
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-general">
+            <h2>¿Qué son los &lt;div&gt; y &lt;span&gt;?</h2>
+            <h3>&lt;div&gt;:</h3>
+            <p>
+                El elemento &lt;div&gt; es un <b>contenedor de bloque</b>. Esto significa que se utiliza
+                para agrupar otros elementos en un bloque, ocupando toda la <b>anchura</b> disponible en la página,
+                y <b>rompe el flujo</b> de la página, haciendo que el contenido posterior aparezca en una nueva línea.
+                <br> <br>
+                Sus usos comunes son:
+                <nav>
+                    <ol>
+                        <li>Agrupar elementos para aplicar <b>estilos</b> en conjunto.</li>
+                        <li>Crear <b>estructuras</b> de diseño (como <b>contenedores de secciones</b> de una página).</li>
+                        <li>
+                            Utilizar en combinación con <b>CSS</b> para crear diseños de página complejos
+                            (como <b>layout grids</b> o <b>páginas con varias columnas</b>).
+                        </li>
+                    </ol>
+                </nav>
+            </p>
+            <h3>&lt;span&gt;:</h3>
+            <p>
+                El elemento &lt;span&gt; es un <b>contenedor en línea</b>. A diferencia de &lt;div&gt;, no crea un nuevo bloque, sino que se utiliza para agrupar contenido dentro de una línea sin afectar el flujo de la página. Es útil cuando se quiere aplicar estilos a <b>fragmentos pequeños</b> de texto o <b>elementos en línea</b> sin cambiar su disposición en la página.
+                <br> <br>
+                Sus usos comunes son:
+                <nav>
+                    <ol>
+                        <li>Agrupar una porción de texto o un pequeño bloque de contenido para aplicar estilos.</li>
+                        <li>Usar en conjunto con <b>CSS</b> o <b>JavaScript</b> para modificar el estilo o el comportamiento de partes específicas de un contenido en línea (por ejemplo, <b>colorear una palabra específica</b> dentro de una oración).</li>
+                    </ol>
+                </nav>
+            </p>
+            <hr>
+        </div>
+    </section>
+    <section>
+        <div class="container-general">
+            <h2 id="ejemplos-divs">Ejemplos de usos</h2>
+            <h3>&lt;div&gt;</h3>
+            <p>
+                Ahora que repasamos los conceptos, vamos a dar un ejemplo de los divs y span.
+                <br>
+                Ejemplo:
+            </p>
+            <div class="codigo">
+                <table cellpadding="20">
+                    <tr><td>&lt;div class="section"&gt;</td></tr>
+                    <tr><td>&lt;h2&gt;Encabezado de sección&lt;/h2&gt;</td></tr>
+                    <tr><td>&lt;p&gt;Texto relacionado con la sección.&lt;/p&gt;</td></tr>
+                    <tr><td>&lt;/div&gt;</td></tr>
+                </table>
+            </div>
+            <p>
+                En este ejemplo, &lt;div&gt; agrupa un encabezado y un párrafo bajo una <b>clase</b> común, lo que facilita la aplicación de estilos con <b>CSS</b>.
+            </p>
+            <h3>&lt;span&gt;:</h3>
+            <p>
+                Ejemplo:
+            </p>
+            <div class="codigo">
+                <table cellpadding="20">
+                    <tr><td>&lt;p&gt;Me gusta &lt;span class="highlight"&gt;programar&lt;/span&gt; en HTML.&lt;/p&gt;</td></tr>
+                </table>
+            </div>
+            <p>
+                En este caso, el &lt;span&gt; agrupa la palabra "<b>programar</b>" para poder aplicar un estilo específico (como cambiar el color) sin alterar la disposición del texto.
+            </p>
+        </div>
+    </section>
+    <section id="contenido-relacionados">
+        <div class="container-general">
+            <hr>
+            <h3>Articlos relacionados</h3>
+            <div class="anuncios">
+                <a href="../../SANDES-ARBELBIDE/terminado/index.html"><img src="../Imagenes/LogoSandes.jpg" alt="Patrocinador" class="img-anuncios"></a>
+                <a href="https://escuela.it/cursos/html-css"><img src="../Imagenes/anunciocss.jpg" alt="Curso HTML y CSS" class="img-anuncios"></a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container-general">
+            <p>&copy; HTMLBasics 2024</p>
+        </div>
+    </footer>
+</body>
+</html>

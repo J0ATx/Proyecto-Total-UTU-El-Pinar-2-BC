@@ -1,0 +1,98 @@
+body {
+    background-color: beige;
+}
+h1 {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+#imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Introduccion {
+    font-family: Arial;
+    text-align: center; 
+    display: block; 
+    margin: 0 auto; 
+    width: 80%; 
+    padding: 10px; 
+    border-radius: 5px; 
+}
+#Padel {
+    background-color: skyblue;
+    width: 250px; 
+    height: 250px;
+    border: 1px solid #ccc; 
+    top: 420px;
+    left: 50px; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    position: absolute;
+}
+h2 {
+    color: black;
+    font-family: Arial;
+    font-size: medium;
+    text-align: center;
+}
+.imagenpadel {
+    width: 200px;
+    height: 170px;
+    left: 30px;
+    position: absolute;
+}
+#Gym {
+    background-color: lightsalmon;
+    width: 250px; 
+    height: 250px;
+    border: 1px solid #ccc; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    position: absolute;
+    left: 600px;
+    top: 420px;
+}
+.imagengym {
+    width: 200px;
+    height: 170px;
+    position: absolute;
+    left: 30px;
+}
+h3 {
+    color: black;
+    font-family: Arial;
+    font-size: medium;
+    text-align: center;
+}
+#Hockey {
+    background-color: lightcoral;
+    width: 250px; 
+    height: 250px;
+    border: 1px solid #ccc; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    justify-content: center;
+    position: absolute;
+    left: 1125px;
+    top: 420px;
+}
+h4 {
+    color: black;
+    font-family: Arial;
+    font-size: medium;
+    text-align: center; 
+}
+.imagenhockey {
+    width: 200px;
+    height: 170px;
+    position: absolute;
+    left: 30px;
+}
+.Bautiland {
+    position:absolute;
+    width: 80px;
+    height: 65px;
+    border-radius:100%;
+}

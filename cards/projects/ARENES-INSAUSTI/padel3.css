@@ -1,0 +1,110 @@
+body{
+    background-color: beige;
+}
+h1 {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+.tenisvspadel{
+    width: 60%; 
+    height: 60%;
+    top: 10%;
+    left: 22%;
+    position: absolute;
+}
+.p1 {
+    text-decoration: underline;
+    font-weight: bold;
+}
+.p2 {
+    text-decoration: underline;
+}
+#Tamaño{
+    background-color: rgb(250, 150, 18);
+    width: 40%; 
+    height: 35%;
+    border: 1px solid #ccc; 
+    top: 75%;
+    left: 5%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    position: absolute;
+}
+#Raquetas{
+    background-color: rgb(250, 150, 18);
+    width: 40%; 
+    height: 35%;
+    border: 1px solid #ccc; 
+    top: 75%;
+    right: 5%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    position: absolute;
+}
+#Paredes{
+    background-color: rgb(250, 150, 18);
+    width: 40%; 
+    height: 35%;
+    border: 1px solid #ccc; 
+    top: 120%;
+    left: 5%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    position: absolute;
+}
+#Servicio{
+    background-color: rgb(250, 150, 18);
+    width: 40%; 
+    height: 35%;
+    border: 1px solid #ccc; 
+    top: 120%;
+    right: 5%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    position: absolute;
+}
+#Popularidadytorneos{
+    background-color: rgb(250, 150, 18);
+    width: 60%; 
+    height: 65%;
+    border: 1px solid #ccc; 
+    top: 165%;
+    left: 20%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    position: absolute;
+}
+.torneos{
+    position: absolute;
+    top: 45%;
+    right: 15%;
+
+}
+.atras{
+    width: 6%; 
+    height: 8%;
+    top: 233%;
+    left: 2%;
+    position: absolute;
+}
+.next{
+    width: 6%;
+    height: 8%;
+    top: 233%;
+    right: 2%;
+    position: absolute;
+}
+.inicio {
+    width: 7%;
+    height: 7%;
+    top: 233%;
+    left: 47%;
+    position: absolute;
+}
+.Bautiland {
+    position: absolute;
+    width: 80px;
+    height: 65px;
+    border-radius: 100%;
+}

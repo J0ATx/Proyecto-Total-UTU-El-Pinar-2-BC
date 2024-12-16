@@ -1,0 +1,97 @@
+body {
+    background-color: beige;
+    background-image: url('fondo.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+h1 {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+p {
+    font-family: Arial;
+    text-align: center; 
+}
+.vs {
+    position: absolute;
+    left: 450px;
+    width: 500px;
+    height: 300px;
+}
+h2 {
+    color: black;
+    font-family: Arial;
+    font-size: medium;
+    text-align: center;
+}
+#cesped {
+    background-color: lavender;
+    position: absolute;
+    left: 5%;
+    top: 63%;
+    width: 35%; 
+    height: 35%;
+    border: 1px solid #ccc;
+}
+.hockeysobrecesped {
+    width: 75%;
+    height: 75%;
+    left: 14%;
+    position: absolute;
+}
+#hielo {
+    background-color: lavender;
+    position: absolute;
+    right: 5%;
+    top: 63%;
+    width: 35%; 
+    height: 35%;
+    border: 1px solid #ccc;
+}
+.hockeysobrehielo {
+    width: 70%;
+    height: 75%;
+    right: 12%;
+    position: absolute;
+}
+h3 {
+    color: black;
+    font-family: Arial;
+    font-size: medium;
+    text-align: center;
+}
+#tabla {
+    top: 750px;
+    left: 100px;
+    position: absolute;
+    font-family: Arial;
+    font-size: medium;
+    background-color: blanchedalmond;
+    text-align: center;
+}
+.as {
+    font-weight: bold;
+}
+.atras {
+    width: 6%;
+    height: 8%;
+    top: 133%;
+    left: 1%;
+    position: absolute;
+}
+.in {
+    position: absolute;
+    width: 7%;
+    height: 7%;
+    top: 133%;
+    left: 47%;
+}
+.Bautiland {
+    position: absolute;
+    width: 80px;
+    height: 65px;
+    border-radius: 100%;
+}

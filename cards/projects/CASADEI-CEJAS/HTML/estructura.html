@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>HTML Basics - Estructura</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="icon" href="../Imagenes/logohtml.png" type="icon">
+</head>
+<body>
+    <header>
+        <div class="container-header">
+            <p class="htmlbasics">HTML <br>Basics</p>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="https://www.atom.bio/espacioergo">Sobre nosotros</a>
+                <a href="https://youtu.be/ELSm-G201Ls?si=tUtw4u3nAP_kMifh">Aprende más</a>
+            </nav>
+        </div>
+    </header>
+    <section id="titulo">
+        <div class="container-general">
+            <div class="container-info">
+                <p class="proyecto">Proyecto Desarrolo Web</p>
+                <p>Nov 11, 2024</p>
+                <p>Esteban Casadei - Matias Cejas</p>
+            </div>
+            <h1>Estructura HTML</h1>
+            <h2>Principales características.</h2>
+            <img src="../Imagenes/estructuraimg.jpeg" alt="Estructura" class="img-inicio-estructura">
+        </div>
+    </section>
+    <section id="indice">
+        <div class="container-general">
+            <h2> LISTA DE CONTENIDOS </h2>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio&nbsp;&nbsp; ></a></li>
+                    <ul>
+                        <li><a href="index.html#que-es">¿Que es HTML?&nbsp;&nbsp; ></a></li>
+                        <li><a href="index.html#para-que-sirve">¿Para que sirve?&nbsp;&nbsp; ></a></li>
+                    </ul>
+                    <li><a href="estructura.html">Estructura&nbsp;&nbsp; ></a></li>
+                    <ul>
+                        <li><a href="estructura.html#doctype-estructra">Declaración del DOCTYPE&nbsp;&nbsp; ></a></li>
+                        <li><a href="estructura.html#etiquetas-estructra">Etiqueta html&nbsp;&nbsp; ></a></li>
+                        <li><a href="estructura.html#ejemplo-estructura">Ejemplo&nbsp;&nbsp; ></a></li>
+                    </ul>
+                    <li><a href="texto.html">Texto&nbsp;&nbsp; ></a></li>
+                    <ul>
+                        <li><a href="texto.html#parrafos-texto">Párrafos&nbsp;&nbsp; ></a></li>
+                        <li><a href="texto.html#encabezados-texto">Encabezados&nbsp;&nbsp; ></a></li>
+                        <li><a href="texto.html#textosdestacados-texto">Textos destacados&nbsp;&nbsp; ></a></li>
+                        <li><a href="texto.html#extra-texto">Extra&nbsp;&nbsp; ></a></li>
+                        <li><a href="texto.html#ejemplo-texto">Ejemplo&nbsp;&nbsp; ></a></li>
+                    </ul>
+                    <li><a href="listas.html">Listas&nbsp;&nbsp; ></a></li>
+                    <ul>
+                        <li><a href="listas.html#ordenada-listas">Lista ordenada&nbsp;&nbsp; ></a></li>
+                        <li><a href="listas.html#desordenada-listas">Lista desordenada&nbsp;&nbsp; ></a></li>
+                    </ul>
+                    <li><a href="enlaces.html">Enlaces&nbsp;&nbsp; ></a></li>
+                    <ul>
+                        <li><a href="enlaces.html#destino-enlace">Destino del enlace&nbsp;&nbsp; ></a></li>
+                        <li><a href="enlaces.html#documento-enlace">Enlaces a una parte del documento&nbsp;&nbsp; ></a></li>
+                        <li><a href="enlaces.html#ancla-enlace">Crear ancla en el documento&nbsp;&nbsp; ></a></li>
+                    </ul>
+                    <li><a href="imagenes.html">Imagenes&nbsp;&nbsp; ></a></li>
+                    <ul>
+                        <li><a href="imagenes.html#atributos-imagenes">Atributos principales&nbsp;&nbsp; ></a></li>
+                    </ul>
+                    <li><a href="tablas.html">Tablas&nbsp;&nbsp; ></a></li>
+                    <ul>
+                        <li><a href="tablas.html#etiquetas-tablas">Etiquetas principales&nbsp;&nbsp; ></a></li>
+                        <li><a href="tablas.html#atributos-tablas">Atributos comunes&nbsp;&nbsp; ></a></li>
+                    </ul>
+                    <li><a href="divs.html">Div - Span&nbsp;&nbsp; ></a></li>
+                    <ul>
+                        <li><a href="divs.html#ejemplos-divs">Ejemplo&nbsp;&nbsp; ></a></li>
+                    </ul>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <section>
+        <div class="container-general">
+            <p>
+                La <b>estructura de HTML</b> es la forma en que se organiza y presenta el <b>contenido</b>
+                en un documento web. Se compone de <b>etiquetas</b> que definen diferentes elementos,
+                como el <b>encabezado</b>, el <b>cuerpo</b> y otros componentes. Esta organización es crucial
+                porque permite a los <b>navegadores</b> interpretar y mostrar el contenido correctamente.
+                <br> <br>
+                Además, una buena estructura juega un papel importante en la <b>
+                    optimización
+                    para motores de búsqueda
+                </b>, ya que una jerarquía clara ayuda a <b>indexar</b> el
+                contenido. Por último, un código bien estructurado es más fácil de <b>mantener</b>
+                y <b>actualizar</b>, lo que resulta útil a medida que un sitio web crece y evoluciona.
+                <br> <br>
+                A continuación tendrán <b>ejemplos</b> de como es la <b>estructura basica de HTML</b>
+                (cuando se adquieran más <b>conocimientos</b> sobre el <b>tema</b>, la <b>estructura</b>
+                va a ir variando).
+            </p>
+            <hr>
+        </div>
+    </section>
+    <section>
+        <div class="container-general">
+            <h3 id="doctype-estructra">Declaración del DOCTYPE</h3>
+            <p>
+                Esto le dice al navegador que el documento es HTML5.
+            </p>
+            <div class="codigo">
+                <table cellpadding="20">
+                    <tr><td>&lt;!DOCTYPE html&gt;</td></tr>
+                </table>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container-general">
+            <h3 id="etiquetas-estructra">Etiqueta html</h3>
+            <p>
+                Es el contenedor principal de todo el contenido.
+            </p>
+            <div class="codigo">
+                <table cellpadding="20">
+                    <tr><td>&lt;html lang="es"&gt;</td></tr>
+                </table>
+            </div>
+        </div>
+    </section>
+    <section id="ejemplo-codigo">
+        <div class="container-general">
+            <h3>Etiqueta head</h3>
+            <p>
+                Contiene metadatos sobre el documento, como el título,
+                la codificación de caracteres y enlaces a hojas de estilo.
+            </p>
+            <div class="codigo">
+                <table cellpadding="20">
+                    <tr><td>&lt;head&gt;</td></tr>
+                </table>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container-general">
+            <h3>Etiqueta body</h3>
+            <p>
+                Contiene todo el contenido visible de la página,
+                como encabezados, párrafos, imágenes, etc.
+            </p>
+            <div class="codigo">
+                <table cellpadding="20">
+                    <tr><td>&lt;body&gt;</td></tr>
+                </table>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container-general">
+            <h3>Etiqueta header</h3>
+            <p>
+                Sección que suele incluir el título de la página, logotipos y
+                elementos de navegación. Es una forma de presentar la identidad de la página.
+            </p>
+            <div class="codigo">
+                <table cellpadding="20">
+                    <tr><td>&lt;header&gt;</td></tr>
+                </table>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container-general">
+            <h3>Etiqueta footer</h3>
+            <p>
+                Sección al final del documento que contiene información adicional. Esto puede incluir:
+                Derechos de autor, Enlaces de contacto, Enlaces a políticas, etc.
+            </p>
+            <div class="codigo">
+                <table cellpadding="20">
+                    <tr><td>&lt;footer&gt;</td></tr>
+                </table>
+            </div>
+            <hr>
+        </div>
+    </section>
+    <section>
+        <div class="container-general">
+            <h2>Estructura</h2>
+            <p id="ejemplo-estructura">
+                Ahora que repasamos como es la estructura básica de html, vamos a usar todas
+                las etiquetas aprendidas para que puedan observar como quedan todas juntas (si utilizas el codigo proporcionado, no
+                se va a ver nada debido a que no utilizamos ninguna etiqueta de texto).
+            </p>
+            <div class="codigo">
+                <table cellpadding="20">
+                    <tr><td>&lt;!DOCTYPE html&gt;</td></tr>
+                    <tr><td>&lt;html lang="es"&gt;</td></tr>
+                    <tr><td>&lt;head&gt;</td></tr>
+                    <tr><td>&lt;/head&gt;</td></tr>
+                    <tr><td>&lt;body&gt;</td></tr>
+                    <tr><td>&lt;header&gt;</td></tr>
+                    <tr><td>&lt;/header&gt;</td></tr>
+                    <tr><td>&lt;footer&gt;</td></tr>
+                    <tr><td>&lt;/footer&gt;</td></tr>
+                    <tr><td>&lt;/body&gt;</td></tr>
+                    <tr><td>&lt;/html&gt;</td></tr>
+                </table>
+            </div>
+            <h3>¿Porque para la etiqueta head, body, etc utilizamos "/"?</h3>
+            <p>
+                Este simbolo "/" se utiliza para indicar el cierre de una etiqueta.
+            </p>
+            <br>
+            <a href="texto.html" class="boton">Siguiente&nbsp;&nbsp;></a>
+        </div>
+    </section>
+    <section id="contenido-relacionados">
+        <div class="container-general">
+            <hr>
+            <h3>Articlos relacionados</h3>
+            <div class="anuncios">
+                <a href="../../SANDES-ARBELBIDE/terminado/index.html"><img src="../Imagenes/LogoSandes.jpg" alt="Patrocinador" class="img-anuncios"></a>
+                <a href="https://escuela.it/cursos/html-css"><img src="../Imagenes/anunciocss.jpg" alt="Curso HTML y CSS" class="img-anuncios"></a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container-general">
+            <p>&copy; HTMLBasics 2024</p>
+        </div>
+    </footer>
+</body>
+</html>

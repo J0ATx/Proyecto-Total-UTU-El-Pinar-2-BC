@@ -1,0 +1,154 @@
+body{
+    background-color: beige;
+}
+h1 {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+#introduccion {
+    font-family: Arial;
+    text-align: center; 
+    display: block; 
+    margin: 0 auto; 
+    width: 80%; 
+    padding: 10px; 
+    border-radius: 5px; 
+}
+h2 {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: large;
+}
+#Paleta{
+    background-color: skyblue;
+    width: 40%; 
+    height: 50%;
+    border: 1px solid #ccc; 
+    top: 30%;
+    left: 2%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    position: absolute;
+}
+.paleta{
+    left: 13%;
+    width: 75%;
+    height: 65%;
+    position: absolute
+}
+.subtitulo {
+    text-decoration: underline;
+}
+#Pelota{
+    background-color: skyblue;
+    width: 40%; 
+    height: 50%;
+    border: 1px solid #ccc; 
+    top: 30%;
+    right: 2%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    position: absolute;
+}
+.pelota{
+    right: 12%;
+    width: 75%%;
+    height: 70%;
+    position: absolute
+}
+#Jugadores{
+    background-color: skyblue;
+    width: 40%; 
+    height: 50%;
+    border: 1px solid #ccc; 
+    top: 85%;
+    left: 2%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    position: absolute;
+}
+.jugadores{
+    left: 13%;
+    width: 75%;
+    height: 65%;
+    position: absolute
+}
+#Cancha{
+    background-color: skyblue;
+    width: 40%; 
+    height: 50%;
+    border: 1px solid #ccc; 
+    top: 85%;
+    right: 2%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    position: absolute;
+}
+.cancha{
+    right: 12%;
+    width: 75%;
+    height: 60%;
+    position: absolute
+}
+#Reglamento{
+    background-color: skyblue;
+    width: 40%; 
+    height: 50%;
+    border: 1px solid #ccc; 
+    top: 140%;
+    left: 2%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    position: absolute;
+}
+.reglamento{
+    left: 25%;
+    height: 50%;
+    position: absolute
+}
+#Puntos{
+    background-color: skyblue;
+    width: 40%; 
+    height: 50%;
+    border: 1px solid #ccc; 
+    top: 140%;
+    right: 2%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    position: absolute;
+}
+.puntos{
+    right: 12%;
+    width: 75%;
+    height: 60%;
+    position: absolute
+}
+.atras{
+    width: 6%;
+    height: 8%;
+    left: 2%;
+    top: 195%;
+    position: absolute;
+}
+.next{
+    width: 6%;
+    height: 8%;
+    top: 195%;
+    right: 2%;
+    position: absolute;
+}
+.inicio {
+    width: 6%;
+    height: 6%;
+    top: 195%;
+    left: 47%;
+    position: absolute;
+}
+.Bautiland {
+    position: absolute;
+    width: 80px;
+    height: 65px;
+    border-radius: 100%;
+}

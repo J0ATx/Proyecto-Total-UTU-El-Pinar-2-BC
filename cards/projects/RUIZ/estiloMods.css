@@ -1,0 +1,62 @@
+body {
+    background-image: url(ImagenNether.jpeg); /* Imagen de fondo */
+    margin: 0;
+    padding: 0; /* Eliminamos el padding */
+}
+
+header {
+    border-radius: 50px;
+    font-size: 26px;
+    text-align: center; /* Centra el contenido dentro del header */
+    background-color: antiquewhite;
+    width: 500px; /* Define el ancho del header */
+    margin: 0 auto; /* Centra el header horizontalmente en la página */
+}
+
+#ContenedorTexto {
+    padding-top:1px;
+    padding-left: 2%;
+    padding-right:2%;
+    position: relative;
+    background-color: bisque;
+    width: 800px;
+    font-size: 22px;
+    margin: 0 5%;
+}
+#contenedorVideo{
+    position: relative;
+    margin:0 10%;
+    margin-bottom:5%;
+}
+#ContenedorFotos{
+    position: absolute;
+    margin:0 60%;
+    width:600px;
+    
+}
+
+#fotoj1{
+
+    margin-bottom:100px;
+}
+#fotoj2{
+    margin-bottom:2%;
+     
+}
+
+footer {
+    width: 100%; 
+    height: 80px; 
+    background-color: rgb(29, 28, 28); 
+    color: white; 
+    text-align: center; 
+    bottom:0;
+    position: fixed;
+}
+#volver{
+    position:relative;
+    text-decoration:none;
+    color:white;
+    top: 40%;
+    font-size: 22px;
+}

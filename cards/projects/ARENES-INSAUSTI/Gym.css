@@ -1,0 +1,119 @@
+body{
+    background-color: beige;
+}
+
+h1 {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+.gym {
+    width: 500px;
+    height: 230px;
+    position: absolute;
+    top: 60px;
+    left: 470px;
+}
+#Intro{
+    background-color: rgb(18, 118, 250);
+    width: 650px; 
+    height: 400px;
+    border: 1px solid #ccc; 
+    top: 300px;
+    left: 45px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    position: absolute;
+}
+.p1 {
+    text-decoration: underline;
+    font-weight: bold;
+}
+.intro {
+    width: 400x;
+    height: 250px;
+    position: absolute;
+    left: 130px;
+}
+#Beneficios{
+    background-color: rgb(18, 118, 250);
+    width: 650px; 
+    height: 400px;
+    border: 1px solid #ccc; 
+    top: 300px;
+    right: 45px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    position: absolute;
+}
+.p2 {
+    text-decoration: underline;
+}
+.beneficios {
+    width: 400x;
+    height: 200px;
+    position: absolute;
+    left: 200px;
+}
+#Caracteristicas{
+    background-color: rgb(18, 118, 250);
+    width: 650px; 
+    height: 400px;
+    border: 1px solid #ccc; 
+    top: 800px;
+    left: 45px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    position: absolute;
+}
+.caracteristicas {
+    width: 400x;
+    height: 180px;
+    position: absolute;
+    left: 170px;
+}
+#Tiposejercicios{
+    background-color: rgb(18, 118, 250);
+    width: 650px; 
+    height: 400px;
+    border: 1px solid #ccc; 
+    top: 800px;
+    right: 45px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    position: absolute;
+}
+.tipos {
+    width: 400x;
+    height: 220px;
+    position: absolute;
+    left: 155px;
+}
+.atras{
+    width: 6%;
+    height: 8%;
+    left: 3%;
+    top: 167%;
+    position: absolute;
+}
+.next{
+    width: 6%;
+    height: 8%;
+    top: 167%;
+    right: 3%;
+    position: absolute;
+}
+.in {
+    position: absolute;
+    width: 6%;
+    height: 6%;
+    top: 167%;
+    left: 46%;
+}
+.Bautiland {
+    position: absolute;
+    width: 80px;
+    height: 65px;
+    border-radius: 100%;
+}
+

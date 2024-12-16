@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>HTML Basics - Enlaces</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="icon" href="../Imagenes/logohtml.png" type="icon">
+</head>
+<body>
+    <header>
+        <div class="container-header">
+            <p class="htmlbasics">HTML <br>Basics</p>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="https://www.atom.bio/espacioergo">Sobre nosotros</a>
+                <a href="https://youtu.be/ELSm-G201Ls?si=tUtw4u3nAP_kMifh">Aprende más</a>
+            </nav>
+        </div>
+    </header>
+    <section id="titulo">
+        <div class="container-general">
+            <div class="container-info">
+                <p class="proyecto">Proyecto Desarrolo Web</p>
+                <p>Nov 11, 2024</p>
+                <p>Esteban Casadei - Matias Cejas</p>
+            </div>
+            <h1>Enlaces en HTML</h1>
+            <h2>¿Qué son los enlaces en HTML?</h2>
+            <img src="../Imagenes/enlaces.jpg" alt="Listas" class="img-inicio">
+        </div>
+        <br>
+    </section>
+    <section id="indice">
+        <div class="container-general">
+            <h2> LISTA DE CONTENIDOS </h2>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio&nbsp;&nbsp; ></a></li>
+                    <ul>
+                        <li><a href="index.html#que-es">¿Que es HTML?&nbsp;&nbsp; ></a></li>
+                        <li><a href="index.html#para-que-sirve">¿Para que sirve?&nbsp;&nbsp; ></a></li>
+                    </ul>
+                    <li><a href="estructura.html">Estructura&nbsp;&nbsp; ></a></li>
+                    <ul>
+                        <li><a href="estructura.html#doctype-estructra">Declaración del DOCTYPE&nbsp;&nbsp; ></a></li>
+                        <li><a href="estructura.html#etiquetas-estructra">Etiqueta html&nbsp;&nbsp; ></a></li>
+                        <li><a href="estructura.html#ejemplo-estructura">Ejemplo&nbsp;&nbsp; ></a></li>
+                    </ul>
+                    <li><a href="texto.html">Texto&nbsp;&nbsp; ></a></li>
+                    <ul>
+                        <li><a href="texto.html#parrafos-texto">Párrafos&nbsp;&nbsp; ></a></li>
+                        <li><a href="texto.html#encabezados-texto">Encabezados&nbsp;&nbsp; ></a></li>
+                        <li><a href="texto.html#textosdestacados-texto">Textos destacados&nbsp;&nbsp; ></a></li>
+                        <li><a href="texto.html#extra-texto">Extra&nbsp;&nbsp; ></a></li>
+                        <li><a href="texto.html#ejemplo-texto">Ejemplo&nbsp;&nbsp; ></a></li>
+                    </ul>
+                    <li><a href="listas.html">Listas&nbsp;&nbsp; ></a></li>
+                    <ul>
+                        <li><a href="listas.html#ordenada-listas">Lista ordenada&nbsp;&nbsp; ></a></li>
+                        <li><a href="listas.html#desordenada-listas">Lista desordenada&nbsp;&nbsp; ></a></li>
+                    </ul>
+                    <li><a href="enlaces.html">Enlaces&nbsp;&nbsp; ></a></li>
+                    <ul>
+                        <li><a href="enlaces.html#destino-enlace">Destino del enlace&nbsp;&nbsp; ></a></li>
+                        <li><a href="enlaces.html#documento-enlace">Enlaces a una parte del documento&nbsp;&nbsp; ></a></li>
+                        <li><a href="enlaces.html#ancla-enlace">Crear ancla en el documento&nbsp;&nbsp; ></a></li>
+                    </ul>
+                    <li><a href="imagenes.html">Imagenes&nbsp;&nbsp; ></a></li>
+                    <ul>
+                        <li><a href="imagenes.html#atributos-imagenes">Atributos principales&nbsp;&nbsp; ></a></li>
+                    </ul>
+                    <li><a href="tablas.html">Tablas&nbsp;&nbsp; ></a></li>
+                    <ul>
+                        <li><a href="tablas.html#etiquetas-tablas">Etiquetas principales&nbsp;&nbsp; ></a></li>
+                        <li><a href="tablas.html#atributos-tablas">Atributos comunes&nbsp;&nbsp; ></a></li>
+                    </ul>
+                    <li><a href="divs.html">Div - Span&nbsp;&nbsp; ></a></li>
+                    <ul>
+                        <li><a href="divs.html#ejemplos-divs">Ejemplo&nbsp;&nbsp; ></a></li>
+                    </ul>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <section>
+        <div class="container-general">
+            <p>
+                Los <b>hipervínculos</b> son una de las innovaciones más interesantes que ofrece la Web.
+                Han formado parte de esta desde el principio, pero hacen que la <b>web sea web</b>.
+                <br> <br>
+                Mediante estos <b>enlaces</b>, podemos comunicar una <b>página con otra</b>.
+                De esta forma, enlazando documentos HTML podemos acabar tejiendo lo que es <b>Internet</b>.
+                <br> <br>
+                Para crear un enlace en HTML utilizamos el elemento <span class="etiqueta-codigo">&lt;a&gt;</span> con la siguiente sintaxis:
+                <div class="codigo">
+                    <table cellpadding="20">
+                        <tr><td>&lt;a&gt; Contenido del enlace &lt;/a&gt;</td></tr>
+                    </table>
+                </div>
+            </p>
+        </div>
+    </section>
+    <section>
+        <div class="container-general">
+            <p>
+                Pero solo con esto el enlace no tendrá mucha utilidad ya que el principal objetivo del enlace es <b>enlazar a un destino</b>.
+                Para poder indicar el destino de un enlace utilizamos el atributo <span class="etiqueta-codigo">href</span>.
+                <br>
+                En valor del atributo <b>href</b> puede ser cualquier <b>URL</b> que represente un recurso.
+                Es decir, una página, una parte de una página, una URL genérica, un archivo, etc.
+                <br>
+                De esta forma el enlace en <b>HTML</b> lo crearemos con la sintaxis:
+            </p>
+            <div class="codigo">
+                <table cellpadding="20">
+                    <tr><td>&lt;a href="URL"&gt; Contenido del enlace &lt;/a&gt;</td></tr>
+                </table>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container-general">
+            <h3 id="destino-enlace">Destino del enlace</h3>
+            <p>
+                Pero, ¿dónde se abre el <b>enlace</b>?
+                Por defecto y si no hemos configurado nada en el navegador web que estemos utilizando
+                el enlace se abre en la <b>misma ventana</b> en la que tengamos el enlace.
+            </p>
+            <br />
+            <p>
+                En el <b>enlace</b>, podemos indicar el <b>destino</b> que queremos darle a dicho enlace.
+                Eso lo podemos hacer mediante el atributo <span class="etiqueta-codigo">target</span>.
+                <br>
+                Si queremos que al abrir el enlace, este nos lleve a una <b>nueva pestaña</b>, ajena a la original,
+                debemos utilizar el valor <span class="etiqueta-codigo">_blank</span>
+            </p>
+            <div class="codigo">
+                <table cellpadding="20">
+                    <tr><td>&lt;a href="enlace.html" target="_blank"&gt; <br>Abrir enlace en una nueva ventana <br>&lt;/a&gt;</td></tr>
+                </table>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container-general">
+            <h3 id="documento-enlace">Enlaces a una parte del documento</h3>
+            <p>
+                Otra capacidad que tenemos en <b>HTML</b> es la de enlazar a una <b>parte concreta del documento</b>.
+                Imagina que en un documento tenemos un título y varios capítulos.
+                Y lo que queremos hacer desde otro documento <b>HTML</b> o bien desde el <b>mismo documento</b>
+                es enlazar directamente al inicio de un capítulo.
+            </p>
+            <br>
+            <h3 id="ancla-enlace">Crear ancla en el documento</h3>
+            <p>
+                Para poder enlazar a una <b>parte concreta</b> de un documento lo primero que tenemos que hacer es <b>marcar</b> esa parte del documento.
+                Para ello contamos con el atributo <span class="etiqueta-codigo">name</span>. Si creamos un enlace con el atributo name,
+                este enlace se definirá como posición y no como enlace de navegación.
+                <br>
+                La sintaxis será:
+            </p>
+            <br>
+            <div class="codigo">
+                <table cellpadding="20">
+                    <tr><td>&lt;a name="partedocumento"&gt; Contenido &lt;/a&gt;</td></tr>
+                </table>
+            </div>
+            <p>
+                En este caso el contenido puede ser vacío ya que no se ofrecerá nada para navegar.
+                Es por ello que podemos ponerlo antes de nuestro capítulo.
+            </p>
+            <div class="codigo">
+                <table cellpadding="20">
+                    <tr><td>&lt;a name="cap2"&gt;&lt;/a&gt;&lt;h2&gt;Nuevo Capítulo&lt;/h2&gt; </td></tr>
+                </table>
+            </div>
+            <ul>
+                <li>Este es el primer ítem de la lista.</li>
+                <li>Este es el segundo ítem de la lista.</li>
+            </ul>
+            <br>
+            <h3>Enlazando a una parte del documento</h3>
+            <p>
+                Una vez que hemos creado el <b>ancla</b> del enlace en HTML en un documento es hora de acceder a esa parte del documento.
+                Para ello solo tenemos que poner el nombre que le hayamos dado al atributo name precedido de una almohadilla.
+                <br />
+                La sintaxis será:
+            </p>
+            <div class="codigo">
+                <table cellpadding="20">
+                    <tr><td>&lt;a name="#cap2"&gt;Enlace al capítulo 2&lt;/a&gt; </td></tr>
+                </table>
+            </div>
+            <br> <br>
+            <a href="imagenes.html" class="boton">Siguiente&nbsp;&nbsp;></a>
+        </div>
+    </section>
+    <section id="contenido-relacionados">
+        <div class="container-general">
+            <hr>
+            <h3>Articlos relacionados</h3>
+            <div class="anuncios">
+                <a href="../../SANDES-ARBELBIDE/terminado/index.html"><img src="../Imagenes/LogoSandes.jpg" alt="Patrocinador" class="img-anuncios"></a>
+                <a href="https://escuela.it/cursos/html-css"><img src="../Imagenes/anunciocss.jpg" alt="Curso HTML y CSS" class="img-anuncios"></a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container-general">
+            <p>&copy; HTMLBasics 2024</p>
+        </div>
+    </footer>
+</body>
+</html>

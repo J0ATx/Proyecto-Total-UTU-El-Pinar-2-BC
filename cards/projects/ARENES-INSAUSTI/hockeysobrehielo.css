@@ -1,0 +1,166 @@
+body{
+    background-color: beige;
+}
+h1 {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+h2 {
+    color: black;
+    font-size: large;
+    text-align: center;
+}
+.p1 {
+    text-decoration: underline;
+}
+#caracteristicas{
+    background-color: lightcyan;
+    width: 30%; 
+    height: 70%;
+    border: 1px solid #ccc; 
+    top: 15%;
+    left: 1%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    position: absolute;
+}
+.equipo{
+    width: 90%;
+    height: 50%;
+    left: 5%;
+    position: absolute;
+}
+#area{
+    background-color: lightcyan;
+    width: 25%; 
+    height: 35%;
+    border: 1px solid #ccc; 
+    top: 15%;
+    left: 35%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    position: absolute;
+}
+.rink{
+    width: 70%;
+    height: 60%;
+    left: 20%;
+    top: 37%;
+    position: absolute;
+}
+#equipamiento{
+    background-color: lightcyan;
+    width: 35%; 
+    height: 70%;
+    border: 1px solid #ccc; 
+    top: 15%;
+    right: 1%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    position: absolute;
+}
+.goli{
+    top: 22%;
+    width: 51%;
+    height: 75%;
+    right: 2%;
+    position: absolute;
+}
+.patines{
+    width: 45%;
+    top: 22%;
+    right: 53%;
+    position: absolute;
+}
+#puntos{
+    background-color: lightcyan;
+    width: 25%; 
+    height: 30%;
+    border: 1px solid #ccc; 
+    top: 55%;
+    left: 35%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    position: absolute;
+}
+.puntos{
+    width: 70%; 
+    right: 60%;
+    top: 60%;
+    left: 15%;
+    position: absolute;
+}
+#reglas{
+    background-color: lightcyan;
+    width: 32%; 
+    height: 70%;
+    border: 1px solid #ccc; 
+    top: 90%;
+    left: 1%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    position: absolute;
+}
+.penalty{
+    width: 68%; 
+    height: 43%;
+    left: 15%;
+    position: absolute;
+}
+#torneos{
+    background-color: lightcyan;
+    width: 32%; 
+    height: 70%;
+    border: 1px solid #ccc; 
+    top: 90%;
+    left: 35%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    position: absolute;
+}
+.NHL{
+    top: 45%;
+    width: 85%; 
+    height: 43%;
+    left: 8%;
+    position: absolute;
+}
+#historia{
+    background-color: lightcyan;
+    width: 28%; 
+    height: 70%;
+    border: 1px solid #ccc; 
+    top: 90%;
+    right: 1%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    position: absolute;
+}
+.get {
+    position: absolute;
+    width: 95%;
+    height: 50%;
+    top: 40%;
+    right: 3%;
+}
+.inicio{
+    top: 163%;
+    width: 8%; 
+    right: 8%;
+    left: 44%;
+    position: absolute;
+}
+.atras{
+    left: 1%;
+    width: 8%; 
+    height: 8%;
+    top: 163%;
+    position: absolute;
+}
+.Bautiland {
+    position: absolute;
+    width: 80px;
+    height: 65px;
+    border-radius: 100%;
+}

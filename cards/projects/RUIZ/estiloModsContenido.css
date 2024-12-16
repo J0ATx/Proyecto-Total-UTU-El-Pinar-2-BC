@@ -1,0 +1,131 @@
+
+#contenedorVideo{
+    position: relative;
+    margin:0 10%;
+    top:5%;
+    height:400px;
+    margin-bottom: 50px;
+}
+
+footer {
+    width: 100%; 
+    height: 10%; 
+    background-color: rgb(29, 28, 28); 
+    color: white; 
+    text-align: center; 
+    bottom:0px;
+    position: fixed;
+}
+#volver{
+    position: relative;
+    text-decoration:none;
+    color:white;
+    top:40%;
+    font-size: 22px;
+}
+#bodyArs{
+    background-image: url(arsBackground.jpg);
+    margin: 0;
+    padding: 0; /* Eliminamos el padding */
+    background-attachment: fixed;
+    background-size:100%;
+
+}
+#HeaderBiomes{
+    text-align: center;
+    color:rgb(247, 233, 226);
+    font-size: large;
+}
+#headerArs{
+    text-align: center;
+    color:rgb(255, 88, 10);
+    font-size: large;
+}
+#bodyBiomes{
+    background-image: url(Biomes-O-Plenty-Mod.jpg); /* Imagen de fondo */
+    margin: 0;
+    padding: 0; /* Eliminamos el padding */
+    background-attachment: fixed;
+    background-size:100%;
+}
+#ContenedorTextoBiomes{
+    position: relative;
+    width: 75%;
+    font-size: 22px;
+    margin: 0 2.5%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: rgb(15, 179, 255);
+}
+
+
+
+ /*ICE AND FIRE!!!!!!!!!!!!*/
+#bodyFire{
+    
+    background-image: url(Fuego&Hielo.jpeg); /* Imagen de fondo */
+    margin: 0;
+    padding: 0; /* Eliminamos el padding */
+    background-attachment: fixed;
+    background-size:100% ;
+
+}
+#ContenedorTextoFire{
+    position: relative;
+    width: 75%;
+    font-size: 22px;
+    margin-left:2.5%;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: rgb(15, 179, 255);
+}
+.ice {
+    color: #00BFFF; /* Color azul hielo */
+    font-family: 'Arial', sans-serif; /* Fuente fría, limpia */
+    font-weight: bold;
+}
+.and {
+    color: #9400D3; /* Color violeta para representar los dragones eléctricos */
+    font-family: 'Courier New', monospace; /* Fuente que evoca algo más tecnológico o "eléctrico" */
+    font-weight: bold;
+}
+.fire {
+    color: #ff0000; /* Color rojo fuego */
+    font-family: 'Georgia', serif; /* Fuente fuerte y agresiva, para reflejar el fuego */
+    font-weight: bold;
+}
+#headerDragons {
+    margin: 0 auto;
+    background: linear-gradient(to right, #0205df, #ff1100); /* Degradado de azul a rojo más saturado */
+    padding: 20px;
+    text-align: center;
+    border-radius: 50px; /*para suavizar los bordes */
+    width: 25%;
+}
+#imagendelos2dragones{
+    position: relative;
+    left:20%;
+}
+#modTexto{
+    margin-left:20px;
+}
+
+#indiceFire{
+    position: absolute;
+    width: 250px;
+    font-size: 20px;
+    margin: 0 82%;
+    background-color: rgba(0, 0, 0, 0.9);
+    text-decoration: none;
+    color: wheat;
+    top:20%;
+    text-align: center;
+    position: fixed;
+}
+#indiceFire a{
+    text-decoration: none;
+    color: wheat;
+}
+/*ICE AND FIRE!!!!!!!!!!!!*/
+iframe{
+    height:300px;
+}
+

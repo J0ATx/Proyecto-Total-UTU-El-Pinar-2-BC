@@ -1,0 +1,220 @@
+    
+body {
+
+    background-color: #16151d;
+    width: 99.2%;
+    height: 100%;
+    background-size: cover;
+    color: white;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+
+}
+
+h1 {
+
+    color: #008879;
+    font-family: fantasy;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 5%;
+    text-shadow: 2px 2px 2px #00cfb7;
+
+}
+
+.main-container {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5%; 
+    padding: 3% 5%; 
+    margin-top: 5%; 
+
+}
+
+
+.escuderiadiv {
+    width: 100%;  
+    height: 100%; 
+    padding: 2%;
+    border-radius: 5%;
+    background-size: cover;
+    color: white;
+    box-shadow: 16px 16px 20px #000;
+    font-family: fantasy;
+    position: relative;
+}
+
+
+.Ferraridiv {
+    background-image: url('./html/f1logogpt.avif');
+}
+
+
+.redbulldiv {
+    background-image: url('./html/redbulllogogpt.jpg');
+}
+
+
+.haasdiv {
+    background-image: url('./html/haaslogogpt.webp');
+}
+
+
+.alpinediv {
+    background-image: url('./html/alpinelogogpt.webp');
+}
+
+
+.williamsdiv {
+    background-image: url('./html/williamslogogpt.avif');
+}
+
+
+.mercedesdiv {
+    background-image: url('./html/mercedes-f1-logo-gpt.jpg');
+}
+
+
+.astonmartindiv {
+    background-image: url('./html/Aston-Martin-Formula-One-Team-Logo.jpg');
+}
+
+
+.rbdiv {
+    background-image: url('./html/rbbbbbbbbbbbbbbbbbbbb.png');
+}
+
+
+.mclarendiv {
+    background-image: url('./html/McLaren-Racing-expands-commercial-agreement-with-OKX.jpg');
+}
+
+
+.stakediv {
+    background-image: url('./html/2024-Stake-Sauber-F1-Team-logo-750X215px-Photo-Sauber-Edited-by-MAXF1net.jpg');
+}
+
+
+.escuderiadiv ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+.escuderiadiv li {
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+
+
+.navT1 {  
+    background: #16151d;  
+    color: #df1c1c;  
+    padding: 1% 0;  
+    width: 750px;
+    font-size: large;
+    font-family: fantasy;
+    font-weight: bold;
+    position: absolute;
+    top: 17.5%;
+    margin-left: 31%;
+    text-shadow: 2px 2px 5px #5a0c0c;
+}  
+
+
+nav ul {  
+    list-style: none;  
+    padding: 0;  
+    width: 99.2%;
+}  
+
+
+nav ul li {  
+    display: inline;  
+    margin-right: 2%; 
+    width: 99.2%;
+}  
+
+
+nav ul li a {  
+    color: #df1c1c;  
+    text-decoration: none;  
+    width: 99.2%;
+}
+
+
+.div1 {
+    width: 20%;
+    height: 20%;
+    top: 2%;
+    left: 42%;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+
+
+.Ferrari, .redbullpa, .haas, .alpine, .williams, .mercedes, .astonmartin, .rb, .mclaren, .stake {
+    font-family: fantasy;
+    color: #df1c1c;
+    margin-top: 30px;
+    width: 100%;
+    padding-left: 2.5%;
+    text-decoration: underline; 
+    text-align: center;
+}
+
+
+.haastexto{
+
+    color: #df1c1c;
+
+}
+
+
+.textoAlpine{
+
+    color: #00a3e0;
+
+}
+
+
+.textoMercedes{
+
+    color: #008879;
+    text-shadow: 90px 90px 90px #ffffff;
+
+}
+
+
+.textorb{
+
+    color: #000;
+    text-shadow: 2px 2px 2px #535252;
+
+}
+
+
+.textoMcLaren{
+
+    color: #000;
+
+}
+
+
+.textoMcLaren2{
+
+    color: #000;
+    margin-top: 5%;
+
+}
+
+
+.textostake{
+
+    color: #17ffae;
+    text-shadow: 3px 3px 3px #000;
+
+}

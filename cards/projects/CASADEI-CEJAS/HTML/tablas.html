@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>HTML Basics - Tablas</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="icon" href="../Imagenes/logohtml.png" type="icon">
+</head>
+<body>
+    <header>
+        <div class="container-header">
+            <p class="htmlbasics">HTML <br>Basics</p>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="https://www.atom.bio/espacioergo">Sobre nosotros</a>
+                <a href="https://youtu.be/ELSm-G201Ls?si=tUtw4u3nAP_kMifh">Aprende más</a>
+            </nav>
+        </div>
+    </header>
+    <section id="titulo">
+        <div class="container-general">
+            <div class="container-info">
+                <p class="proyecto">Proyecto Desarrolo Web</p>
+                <p>Nov 11, 2024</p>
+                <p>Esteban Casadei - Matias Cejas</p>
+            </div>
+            <h1>Tablas en HTML</h1>
+            <h2>¿Como crear tablas? ¿Como modificarlas?, etc.</h2>
+            <img src="../Imagenes/tablas.jpg" alt="Tablas" class="img-inicio">
+        </div>
+    </section>
+    <section>
+        <div class="container-general">
+            <p>
+                Las <b>tablas</b> en HTML se utilizan para organizar y mostrar datos en filas
+                y columnas de una manera estructurada. Son una herramienta muy útil cuando
+                se necesita presentar información tabular, como por ejemplo, <b>horarios</b>, <b>
+                    listas
+                    de productos
+                </b>, <b>resultados de exámenes</b>, <b>estadísticas</b> o cualquier otro tipo de dato
+                que se pueda organizar en un formato de filas y columnas.
+            </p>
+        </div>
+    </section>
+    <section id="indice">
+        <div class="container-general">
+            <h2> LISTA DE CONTENIDOS </h2>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio&nbsp;&nbsp; ></a></li>
+                    <ul>
+                        <li><a href="index.html#que-es">¿Que es HTML?&nbsp;&nbsp; ></a></li>
+                        <li><a href="index.html#para-que-sirve">¿Para que sirve?&nbsp;&nbsp; ></a></li>
+                    </ul>
+                    <li><a href="estructura.html">Estructura&nbsp;&nbsp; ></a></li>
+                    <ul>
+                        <li><a href="estructura.html#doctype-estructra">Declaración del DOCTYPE&nbsp;&nbsp; ></a></li>
+                        <li><a href="estructura.html#etiquetas-estructra">Etiqueta html&nbsp;&nbsp; ></a></li>
+                        <li><a href="estructura.html#ejemplo-estructura">Ejemplo&nbsp;&nbsp; ></a></li>
+                    </ul>
+                    <li><a href="texto.html">Texto&nbsp;&nbsp; ></a></li>
+                    <ul>
+                        <li><a href="texto.html#parrafos-texto">Párrafos&nbsp;&nbsp; ></a></li>
+                        <li><a href="texto.html#encabezados-texto">Encabezados&nbsp;&nbsp; ></a></li>
+                        <li><a href="texto.html#textosdestacados-texto">Textos destacados&nbsp;&nbsp; ></a></li>
+                        <li><a href="texto.html#extra-texto">Extra&nbsp;&nbsp; ></a></li>
+                        <li><a href="texto.html#ejemplo-texto">Ejemplo&nbsp;&nbsp; ></a></li>
+                    </ul>
+                    <li><a href="listas.html">Listas&nbsp;&nbsp; ></a></li>
+                    <ul>
+                        <li><a href="listas.html#ordenada-listas">Lista ordenada&nbsp;&nbsp; ></a></li>
+                        <li><a href="listas.html#desordenada-listas">Lista desordenada&nbsp;&nbsp; ></a></li>
+                    </ul>
+                    <li><a href="enlaces.html">Enlaces&nbsp;&nbsp; ></a></li>
+                    <ul>
+                        <li><a href="enlaces.html#destino-enlace">Destino del enlace&nbsp;&nbsp; ></a></li>
+                        <li><a href="enlaces.html#documento-enlace">Enlaces a una parte del documento&nbsp;&nbsp; ></a></li>
+                        <li><a href="enlaces.html#ancla-enlace">Crear ancla en el documento&nbsp;&nbsp; ></a></li>
+                    </ul>
+                    <li><a href="imagenes.html">Imagenes&nbsp;&nbsp; ></a></li>
+                    <ul>
+                        <li><a href="imagenes.html#atributos-imagenes">Atributos principales&nbsp;&nbsp; ></a></li>
+                    </ul>
+                    <li><a href="tablas.html">Tablas&nbsp;&nbsp; ></a></li>
+                    <ul>
+                        <li><a href="tablas.html#etiquetas-tablas">Etiquetas principales&nbsp;&nbsp; ></a></li>
+                        <li><a href="tablas.html#atributos-tablas">Atributos comunes&nbsp;&nbsp; ></a></li>
+                    </ul>
+                    <li><a href="divs.html">Div - Span&nbsp;&nbsp; ></a></li>
+                    <ul>
+                        <li><a href="divs.html#ejemplos-divs">Ejemplo&nbsp;&nbsp; ></a></li>
+                    </ul>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <section>
+        <div class="container-general">
+            <h2>¿Cómo se crean tablas en HTML?</h2>
+            <p>
+                En HTML, las tablas se definen usando la etiqueta <span class="etiqueta-codigo">&lt;table&gt;</span>. Dentro de
+                esta, se utilizan varias etiquetas para crear las filas, las columnas
+                y los encabezados de la tabla.
+                <br>
+                Estructura básica de una tabla:
+            </p>
+            <div class="codigo">
+                <table cellpadding="20">
+                    <tr><td>&lt;table&gt;</td></tr>
+                    <tr><td>&lt;tr&gt;</td></tr>
+                    <tr><td>&lt;th&gt;Encabezado 1&lt;/th&gt;</td></tr>
+                    <tr><td>&lt;th&gt;Encabezado 2&lt;/th&gt;</td></tr>
+                    <tr><td>&lt;th&gt;Encabezado 3&lt;/th&gt;</td></tr>
+                    <tr><td>&lt;/tr&gt;</td></tr>
+                    <tr><td>&lt;tr&gt;</td></tr>
+                    <tr><td>&lt;td&gt;Dato 1&lt;/td&gt;</td></tr>
+                    <tr><td>&lt;td&gt;Dato 2&lt;/td&gt;</td></tr>
+                    <tr><td>&lt;td&gt;Dato 3&lt;/td&gt;</td></tr>
+                    <tr><td>&lt;/tr&gt;</td></tr>
+                    <tr><td>&lt;tr&gt;</td></tr>
+                    <tr><td>&lt;td&gt;Dato 4&lt;/td&gt;</td></tr>
+                    <tr><td>&lt;td&gt;Dato 5&lt;/td&gt;</td></tr>
+                    <tr><td>&lt;td&gt;Dato 6&lt;/td&gt;</td></tr>
+                    <tr><td>&lt;/tr&gt;</td></tr>
+                    <tr><td>&lt;/table&gt;</td></tr>
+                </table>
+            </div>
+            <p>Así se ve el código de ejemplo:</p>
+            <table class="mostrar-ejemplo">
+                <tr>
+                    <th>Encabezado 1</th>
+                    <th>Encabezado 2</th>
+                    <th>Encabezado 3</th>
+                </tr>
+                <tr>
+                    <td>Dato 1</td>
+                    <td>Dato 2</td>
+                    <td>Dato 3</td>
+                </tr>
+                <tr>
+                    <td>Dato 4</td>
+                    <td>Dato 5</td>
+                    <td>Dato 6</td>
+                </tr>
+            </table>
+            <hr>
+        </div>
+    </section>
+    <section>
+        <div class="container-general">
+            <h2 id="etiquetas-tablas">Etiquetas principales para las tablas:</h2>
+            <h3>&lt;table&gt;:</h3>
+            <p>
+                Define el contenedor de la tabla.
+            </p>
+            <h3>&lt;tr&gt; (table row):</h3>
+            <p>
+                Define una fila dentro de la tabla. Dentro de una fila se colocan las celdas de la tabla.
+            </p>
+            <h3>&lt;th&gt; (table header):</h3>
+            <p>
+                Define una celda de encabezado. Estas celdas se usan normalmente para describir
+                los contenidos de una columna o fila. El texto dentro de un <span class="etiqueta-codigo">&lt;th&gt;</span> generalmente
+                se muestra en <b>negrita</b> y se centra de manera predeterminada.
+            </p>
+            <h3>&lt;td&gt; (table data):</h3>
+            <p>
+                Define una celda de datos dentro de una fila. Es la etiqueta más común y
+                se usa para colocar la información o los valores dentro de la tabla.
+            </p>
+            <hr>
+        </div>
+    </section>
+    <section>
+        <div class="container-general">
+            <h2 id="atributos-tablas">Atributos comunes de las tablas:</h2>
+            <h3>border:</h3>
+            <p>
+                Define el grosor del borde de la tabla. Si no se especifica, por defecto las tablas no tienen borde.
+                <br>
+                Ejemplo:
+            </p>
+            <div class="codigo">
+                <table cellpadding="20">
+                    <tr><td>&lt;table border="1"&gt;</td></tr>
+                </table>
+            </div>
+            <p>Así se vería una tabla con este atributo:</p>
+            <table border="1" class="mostrar-ejemplo">
+                <tr>
+                    <th>Encabezado 1</th>
+                    <th>Encabezado 2</th>
+                    <th>Encabezado 3</th>
+                </tr>
+                <tr>
+                    <td>Dato 1</td>
+                    <td>Dato 2</td>
+                    <td>Dato 3</td>
+                </tr>
+                <tr>
+                    <td>Dato 4</td>
+                    <td>Dato 5</td>
+                    <td>Dato 6</td>
+                </tr>
+            </table>
+            <br>
+            <h3>colspan:</h3>
+            <p>
+                El atributo colspan se utiliza para <b>combinar varias celdas</b> en una sola celda <b>horizontalmente</b>.
+                Esto significa que una celda ocupará más de una columna. El valor de colspan especifica cuántas columnas debe abarcar la celda.
+                <br>
+                Ejemplo:
+            </p>
+            <div class="codigo">
+                <table cellpadding="20">
+                    <tr><td>&lt;table border="1"&gt;</td></tr>
+                    <tr><td>&lt;tr&gt;</td></tr>
+                    <tr><td>&lt;th colspan="3"&gt;Encabezado combinado&lt;/th&gt;</td></tr>
+                    <tr><td>&lt;/tr&gt;</td></tr>
+                    <tr><td>&lt;tr&gt;</td></tr>
+                    <tr><td>&lt;td&gt;Dato 1&lt;/td&gt;</td></tr>
+                    <tr><td>&lt;td&gt;Dato 2&lt;/td&gt;</td></tr>
+                    <tr><td>&lt;td&gt;Dato 3&lt;/td&gt;</td></tr>
+                    <tr><td>&lt;/tr&gt;</td></tr>
+                    <tr><td>&lt;tr&gt;</td></tr>
+                    <tr><td>&lt;td&gt;Dato 4&lt;/td&gt;</td></tr>
+                    <tr><td>&lt;td&gt;Dato 5&lt;/td&gt;</td></tr>
+                    <tr><td>&lt;td&gt;Dato 6&lt;/td&gt;</td></tr>
+                    <tr><td>&lt;/tr&gt;</td></tr>
+                    <tr><td>&lt;/table&gt;</td></tr>
+                </table>
+            </div>
+            <p>Así se ve el código de ejemplo:</p>
+            <table border="1" class="mostrar-ejemplo">
+                <tr>
+                    <th colspan="3">Encabezado combinado</th>
+                </tr>
+                <tr>
+                    <td>Dato 1</td>
+                    <td>Dato 2</td>
+                    <td>Dato 3</td>
+                </tr>
+                <tr>
+                    <td>Dato 4</td>
+                    <td>Dato 5</td>
+                    <td>Dato 6</td>
+                </tr>
+            </table>
+            <br>
+            <h3>rowspan:</h3>
+            <p>
+                El atributo rowspan se utiliza para <b>combinar varias celdas</b> en una sola celda <b>verticalmente</b>.
+                Esto permite que una celda ocupe varias filas. El valor de rowspan especifica cuántas filas debe abarcar la celda.
+                <br>
+                Ejemplo:
+            </p>
+            <div class="codigo">
+                <table cellpadding="20">
+                    <tr><td>&lt;table border="1"&gt;</td></tr>
+                    <tr><td>&lt;tr&gt;</td></tr>
+                    <tr><td>&lt;th colspan="3"&gt;Encabezado combinado&lt;/th&gt;</td></tr>
+                    <tr><td>&lt;/tr&gt;</td></tr>
+                    <tr><td>&lt;tr&gt;</td></tr>
+                    <tr><td>&lt;td rowspan="2"&gt;Dato combinado&lt;/td&gt;</td></tr>
+                    <tr><td>&lt;td&gt;Dato 1&lt;/td&gt;</td></tr>
+                    <tr><td>&lt;td&gt;Dato 2&lt;/td&gt;</td></tr>
+                    <tr><td>&lt;/tr&gt;</td></tr>
+                    <tr><td>&lt;tr&gt;</td></tr>
+                    <tr><td>&lt;td&gt;Dato 3&lt;/td&gt;</td></tr>
+                    <tr><td>&lt;td&gt;Dato 4&lt;/td&gt;</td></tr>
+                    <tr><td>&lt;/tr&gt;</td></tr>
+                    <tr><td>&lt;/table&gt;</td></tr>
+                </table>
+            </div>
+            <p>Así se ve el código de ejemplo:</p>
+            <table border="1" class="mostrar-ejemplo">
+                <tr>
+                    <th colspan="3">Encabezado combinado</th>
+                </tr>
+                <tr>
+                    <td rowspan="2">Dato <br>combinado</td>
+                    <td>Dato 1</td>
+                    <td>Dato 2</td>
+                </tr>
+                <tr>
+                    <td>Dato 3</td>
+                    <td>Dato 4</td>
+                </tr>
+            </table>
+            <br> <br>
+            <a href="divs.html" class="boton">Siguiente&nbsp;&nbsp;></a>
+        </div>
+    </section>
+    <section id="contenido-relacionados">
+        <div class="container-general">
+            <hr>
+            <h3>Articlos relacionados</h3>
+            <div class="anuncios">
+                <a href="../../SANDES-ARBELBIDE/terminado/index.html"><img src="../Imagenes/LogoSandes.jpg" alt="Patrocinador" class="img-anuncios"></a>
+                <a href="https://escuela.it/cursos/html-css"><img src="../Imagenes/anunciocss.jpg" alt="Curso HTML y CSS" class="img-anuncios"></a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container-general">
+            <p>&copy; HTMLBasics 2024</p>
+        </div>
+    </footer>
+</body>
+</html>
